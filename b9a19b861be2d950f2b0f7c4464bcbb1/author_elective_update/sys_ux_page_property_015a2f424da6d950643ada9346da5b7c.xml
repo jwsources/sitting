@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Ribbon Config ID</description>
+        <name>ribbonConfigId</name>
+        <page display_value="">4d5a2f4235a6d9502bbb36c3f7c01781</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:42:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>015a2f424da6d950643ada9346da5b7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_ux_page_property_015a2f424da6d950643ada9346da5b7c</sys_update_name>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_sitting_se_0.4d5a2f4235a6d9502bbb36c3f7c01781.root.ribbonConfigId</unique_name>
+        <value>415a2f422aa6d9508ec03ab6981a3b7a</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</application>
+        <file_path/>
+        <instance_id>227680addb82051052dd2f17d4961998</instance_id>
+        <instance_name>demoemployeewf9345</instance_name>
+        <name>sys_ux_page_property_015a2f424da6d950643ada9346da5b7c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Ribbon Config ID</description><name>ribbonConfigId</name><page display_value="">4d5a2f4235a6d9502bbb36c3f7c01781</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-16 20:42:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>015a2f424da6d950643ada9346da5b7c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ribbonConfigId</sys_name><sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package><sys_policy/><sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope><sys_update_name>sys_ux_page_property_015a2f424da6d950643ada9346da5b7c</sys_update_name><sys_updated_by>Jules.weijters</sys_updated_by><sys_updated_on>2022-10-31 13:08:11</sys_updated_on><type>string</type><unique_name>x_snc_sitting_se_0.4d5a2f4235a6d9502bbb36c3f7c01781.root.ribbonConfigId</unique_name><value>415a2f422aa6d9508ec03ab6981a3b7a</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>1064812945</payload_hash>
+        <record_name>ribbonConfigId</record_name>
+        <reverted_from/>
+        <source>46e4ad200b321110f2b0681b14f8df5a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-10-24 05:24:43</sys_created_on>
+        <sys_id>ed931ff60bf2dd10f2b0681b14f8df73</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>184087345780000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>ad931ff66af2dd10e7422f0186378673</update_guid>
+        <update_guid_history>ad931ff66af2dd10e7422f0186378673:1064812945</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Jules.weijters</sys_created_by>
+        <sys_created_on>2022-10-31 13:14:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>cac45c0ed4a644b2b74efa85fe18b741</sys_id>
+        <sys_metadata>015a2f424da6d950643ada9346da5b7c</sys_metadata>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_015a2f424da6d950643ada9346da5b7c</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_015a2f424da6d950643ada9346da5b7c">ed931ff60bf2dd10f2b0681b14f8df73</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

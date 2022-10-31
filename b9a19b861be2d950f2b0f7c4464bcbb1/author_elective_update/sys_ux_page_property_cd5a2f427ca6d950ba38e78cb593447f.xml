@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>User Preferences</description>
+        <name>chrome_preferences</name>
+        <page display_value="">4d5a2f4235a6d9502bbb36c3f7c01781</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:42:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>cd5a2f427ca6d950ba38e78cb593447f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_preferences</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_ux_page_property_cd5a2f427ca6d950ba38e78cb593447f</sys_update_name>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_sitting_se_0.4d5a2f4235a6d9502bbb36c3f7c01781.root.chrome_preferences</unique_name>
+        <value>[&#13;
+  "workspace.notifications.inbox.desktop",&#13;
+  "workspace.notifications.inbox.audio",&#13;
+  "workspace.notifications.chat.desktop",&#13;
+  "workspace.notifications.chat.audio",&#13;
+  "workspace.showRibbon",&#13;
+  "workspace.showAgentAssist",&#13;
+  "workspace.wrapListText",&#13;
+  "workspace.notifications.showPopups",&#13;
+  "workspace.notifications.showBadgeCount",&#13;
+  "rowcount",&#13;
+  "ts.match",&#13;
+  "glide.ui.accessibility",&#13;
+  "glide.ui.report.accessibility.patterns",&#13;
+  "glide.ui.date_format",&#13;
+  "list_export.deliveryType",&#13;
+  "list_export.orientationType",&#13;
+  "list_export.fileType",&#13;
+  "list_export.email"&#13;
+]</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</application>
+        <file_path/>
+        <instance_id>227680addb82051052dd2f17d4961998</instance_id>
+        <instance_name>demoemployeewf9345</instance_name>
+        <name>sys_ux_page_property_cd5a2f427ca6d950ba38e78cb593447f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>User Preferences</description><name>chrome_preferences</name><page display_value="">4d5a2f4235a6d9502bbb36c3f7c01781</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-16 20:42:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>cd5a2f427ca6d950ba38e78cb593447f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_preferences</sys_name><sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package><sys_policy/><sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope><sys_update_name>sys_ux_page_property_cd5a2f427ca6d950ba38e78cb593447f</sys_update_name><sys_updated_by>Jules.weijters</sys_updated_by><sys_updated_on>2022-10-31 13:08:11</sys_updated_on><type>json</type><unique_name>x_snc_sitting_se_0.4d5a2f4235a6d9502bbb36c3f7c01781.root.chrome_preferences</unique_name><value>[&#13;
+  "workspace.notifications.inbox.desktop",&#13;
+  "workspace.notifications.inbox.audio",&#13;
+  "workspace.notifications.chat.desktop",&#13;
+  "workspace.notifications.chat.audio",&#13;
+  "workspace.showRibbon",&#13;
+  "workspace.showAgentAssist",&#13;
+  "workspace.wrapListText",&#13;
+  "workspace.notifications.showPopups",&#13;
+  "workspace.notifications.showBadgeCount",&#13;
+  "rowcount",&#13;
+  "ts.match",&#13;
+  "glide.ui.accessibility",&#13;
+  "glide.ui.report.accessibility.patterns",&#13;
+  "glide.ui.date_format",&#13;
+  "list_export.deliveryType",&#13;
+  "list_export.orientationType",&#13;
+  "list_export.fileType",&#13;
+  "list_export.email"&#13;
+]</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1095660747</payload_hash>
+        <record_name>chrome_preferences</record_name>
+        <reverted_from/>
+        <source>46e4ad200b321110f2b0681b14f8df5a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-10-24 05:24:43</sys_created_on>
+        <sys_id>c6935ff60bf2dd10f2b0681b14f8df16</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>184087345780000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>86935ff687f2dd107f0ebbeb9252e216</update_guid>
+        <update_guid_history>86935ff687f2dd107f0ebbeb9252e216:-1095660747</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Jules.weijters</sys_created_by>
+        <sys_created_on>2022-10-31 13:14:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>e14a8e889f934c10841545d0e6642784</sys_id>
+        <sys_metadata>cd5a2f427ca6d950ba38e78cb593447f</sys_metadata>
+        <sys_name>chrome_preferences</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_cd5a2f427ca6d950ba38e78cb593447f</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_cd5a2f427ca6d950ba38e78cb593447f">c6935ff60bf2dd10f2b0681b14f8df16</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

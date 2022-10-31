@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
     <par_dashboard_visibility action="INSERT_OR_UPDATE">
         <dashboard display_value="Sitting Services Overview">c15a2f4244a6d950dbafea3b85836d7a</dashboard>
-        <experience display_value="Sitting Services Overview">4d5a2f4235a6d9502bbb36c3f7c01781</experience>
+        <experience/>
         <sys_class_name>par_dashboard_visibility</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-16 20:42:51</sys_created_on>

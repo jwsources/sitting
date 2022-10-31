@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Sitting Services Overview">4d5a2f4235a6d9502bbb36c3f7c01781</page>
+        <required_translations>[ {
+  "message" : "New Incident",
+  "comment" : ""
+}, {
+  "message" : "New Interaction",
+  "comment" : ""
+}, {
+  "message" : "New Sitting request",
+  "comment" : ""
+}, {
+  "message" : "New Sitting services",
+  "comment" : ""
+}, {
+  "message" : "New State",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:42:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>0d5a2f4241a6d9508e9a9432d50cbf7f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_ux_page_property_0d5a2f4241a6d9508e9a9432d50cbf7f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-16 20:43:05</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_sitting_se_0.4d5a2f4235a6d9502bbb36c3f7c01781.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Interaction"},"routeInfo":{"route":"record","fields":{"table":"interaction","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"interaction","canCreate":true}}},{"label":{"translatable":true,"message":"New Incident"},"routeInfo":{"route":"record","fields":{"table":"incident","sysId":"-1"},"multiInstField":"sysId"}},{"label":{"translatable":true,"message":"New Sitting request"},"routeInfo":{"route":"record","fields":{"table":"x_snc_sitting_se_0_sitting_request","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_sitting_se_0_sitting_request","canCreate":true}}},{"label":{"translatable":true,"message":"New Sitting services"},"routeInfo":{"route":"record","fields":{"table":"x_snc_sitting_se_0_sitting_services","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_sitting_se_0_sitting_services","canCreate":true}}},{"label":{"translatable":true,"message":"New State"},"routeInfo":{"route":"record","fields":{"table":"x_snc_sitting_se_0_state","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_sitting_se_0_state","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=0d5a2f4241a6d9508e9a9432d50cbf7f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</application>
+        <file_path/>
+        <instance_id>227680addb82051052dd2f17d4961998</instance_id>
+        <instance_name>demoemployeewf9345</instance_name>
+        <name>sys_ux_page_property_0d5a2f4241a6d9508e9a9432d50cbf7f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Tabs Configuration</description><name>chrome_tab</name><page display_value="Sitting Services Overview">4d5a2f4235a6d9502bbb36c3f7c01781</page><required_translations>[ {
+  "message" : "New Incident",
+  "comment" : ""
+}, {
+  "message" : "New Interaction",
+  "comment" : ""
+}, {
+  "message" : "New Sitting request",
+  "comment" : ""
+}, {
+  "message" : "New Sitting services",
+  "comment" : ""
+}, {
+  "message" : "New State",
+  "comment" : ""
+} ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-16 20:42:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>0d5a2f4241a6d9508e9a9432d50cbf7f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>chrome_tab</sys_name><sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package><sys_policy/><sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope><sys_update_name>sys_ux_page_property_0d5a2f4241a6d9508e9a9432d50cbf7f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-16 20:43:05</sys_updated_on><type>json</type><unique_name>x_snc_sitting_se_0.4d5a2f4235a6d9502bbb36c3f7c01781.root.chrome_tab</unique_name><value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Interaction"},"routeInfo":{"route":"record","fields":{"table":"interaction","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"interaction","canCreate":true}}},{"label":{"translatable":true,"message":"New Incident"},"routeInfo":{"route":"record","fields":{"table":"incident","sysId":"-1"},"multiInstField":"sysId"}},{"label":{"translatable":true,"message":"New Sitting request"},"routeInfo":{"route":"record","fields":{"table":"x_snc_sitting_se_0_sitting_request","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_sitting_se_0_sitting_request","canCreate":true}}},{"label":{"translatable":true,"message":"New Sitting services"},"routeInfo":{"route":"record","fields":{"table":"x_snc_sitting_se_0_sitting_services","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_sitting_se_0_sitting_services","canCreate":true}}},{"label":{"translatable":true,"message":"New State"},"routeInfo":{"route":"record","fields":{"table":"x_snc_sitting_se_0_state","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_sitting_se_0_state","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=0d5a2f4241a6d9508e9a9432d50cbf7f"/></record_update>]]></payload>
+        <payload_hash>-1095293796</payload_hash>
+        <record_name>chrome_tab</record_name>
+        <reverted_from/>
+        <source>b5a19b861be2d950f2b0f7c4464bcbb4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:43:05</sys_created_on>
+        <sys_id>bc6a23821ba6d950f2b0f7c4464bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183e28931e80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-16 20:43:05</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>f06a23822aa6d9500fdbf825596f6ffd</update_guid>
+        <update_guid_history>f06a23822aa6d9500fdbf825596f6ffd:-1095293796,206a238241a6d9505ddcf27d02c5275a:1252505570</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Jules.weijters</sys_created_by>
+        <sys_created_on>2022-10-31 13:14:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>1733f7a832974c2c8ca6e05fc51b9c39</sys_id>
+        <sys_metadata>0d5a2f4241a6d9508e9a9432d50cbf7f</sys_metadata>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_0d5a2f4241a6d9508e9a9432d50cbf7f</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_0d5a2f4241a6d9508e9a9432d50cbf7f">bc6a23821ba6d950f2b0f7c4464bcbfd</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

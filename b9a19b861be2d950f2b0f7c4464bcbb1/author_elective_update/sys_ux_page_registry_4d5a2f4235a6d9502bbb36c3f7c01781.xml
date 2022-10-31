@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>0d5a2f423da6d950340ac7c9a9475081</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>sitting</path>
+        <root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:42:51</sys_created_on>
+        <sys_id>4d5a2f4235a6d9502bbb36c3f7c01781</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sitting Services Overview</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_ux_page_registry_4d5a2f4235a6d9502bbb36c3f7c01781</sys_update_name>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
+        <title>Sitting Services Overview</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</application>
+        <file_path/>
+        <instance_id>227680addb82051052dd2f17d4961998</instance_id>
+        <instance_name>demoemployeewf9345</instance_name>
+        <name>sys_ux_page_registry_4d5a2f4235a6d9502bbb36c3f7c01781</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>0d5a2f423da6d950340ac7c9a9475081</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>sitting</path><root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-16 20:42:51</sys_created_on><sys_id>4d5a2f4235a6d9502bbb36c3f7c01781</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sitting Services Overview</sys_name><sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package><sys_policy/><sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope><sys_update_name>sys_ux_page_registry_4d5a2f4235a6d9502bbb36c3f7c01781</sys_update_name><sys_updated_by>Jules.weijters</sys_updated_by><sys_updated_on>2022-10-31 13:08:11</sys_updated_on><title>Sitting Services Overview</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-158932361</payload_hash>
+        <record_name>Sitting Services Overview</record_name>
+        <reverted_from/>
+        <source>46e4ad200b321110f2b0681b14f8df5a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-10-24 05:24:43</sys_created_on>
+        <sys_id>a9939bf60bf2dd10f2b0681b14f8dffc</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>184087345780000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>69939bf6c4f2dd105d2feb2a4ae45bfc</update_guid>
+        <update_guid_history>69939bf6c4f2dd105d2feb2a4ae45bfc:-158932361</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Jules.weijters</sys_created_by>
+        <sys_created_on>2022-10-31 13:14:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>6657c4280ec743f4a4b7b020fea15991</sys_id>
+        <sys_metadata>4d5a2f4235a6d9502bbb36c3f7c01781</sys_metadata>
+        <sys_name>Sitting Services Overview</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_4d5a2f4235a6d9502bbb36c3f7c01781</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_4d5a2f4235a6d9502bbb36c3f7c01781">a9939bf60bf2dd10f2b0681b14f8dffc</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
