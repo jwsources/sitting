@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_snc_sitting_se_0_sitting_service_search_profile_default_spell_check_dictionary">fffa561b1ba25510f2b0f7c4464bcb64</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="Sitting Service Search Profile">08fa521bdea25510093a05e895598f21</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 12:08:39</sys_created_on>
+        <sys_id>b3fa561b1ba25510f2b0f7c4464bcb67</sys_id>
+        <sys_name>x_snc_sitting_se_0_sitting_service_search_profile_default_spell_check_dictionary.Sitting Service Search Profile</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_b3fa561b1ba25510f2b0f7c4464bcb67</sys_update_name>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

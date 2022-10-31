@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">895a2f4271a6d95028e1326ac534797a</canvas>
+        <component display_value="Dial">63f050cf050137731a828878839e0b33</component>
+        <component_props>{"configVersion":"22.1.7","minValue":0,"innerRadius":0.7,"valueLabelSize":"md","showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Sit request","sourceType":"table","tableOrViewName":"x_snc_sitting_se_0_sit_request","filterQuery":"external_state=84e26fc21b66d950f2b0f7c4464bcb4d^state=2","id":"dGFibGV4X3NuY19zaXR0aW5nX3NlXzBfc2l0X3JlcXVlc3QxNjY2MjE1NDQ1NzM1","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Sitting sessions upcoming","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4X3NuY19zaXR0aW5nX3NlXzBfc2l0X3JlcXVlc3QxNjY2MjE1NDQ1NzM1","id":"ZEdGaWJHVjRYM051WTE5emFYUjBhVzVuWDNObFh6QmZjMmwwWDNKbGNYVmxjM1F4TmpZMk1qRTFORFExTnpNMTE2NjYyMTU0NDYwOTM=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"filterConfigurations":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default"}</component_props>
+        <h>9</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:42:52</sys_created_on>
+        <sys_id>095a2f42b5a6d95093df3c47c3555e7a</sys_id>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>par_dashboard_widget_095a2f42b5a6d95093df3c47c3555e7a</sys_update_name>
+        <visualization/>
+        <w>4</w>
+        <x>4</x>
+        <y>2</y>
+    </par_dashboard_widget>
+</record_update>

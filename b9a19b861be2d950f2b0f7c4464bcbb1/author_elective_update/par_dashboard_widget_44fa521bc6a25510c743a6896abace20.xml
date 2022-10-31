@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">04fa521b58a25510f07c8d28bc33c51f</canvas>
+        <component display_value="">3a64f550256090d9578ede76158e899c</component>
+        <component_props>{"variant":"header-tertiary","label":"Happening now","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props>
+        <h>2</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 12:08:24</sys_created_on>
+        <sys_id>44fa521bc6a25510c743a6896abace20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>par_dashboard_widget_44fa521bc6a25510c743a6896abace20</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 12:08:24</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</application>
+        <file_path/>
+        <instance_id>227680addb82051052dd2f17d4961998</instance_id>
+        <instance_name>demoemployeewf9345</instance_name>
+        <name>par_dashboard_widget_44fa521bc6a25510c743a6896abace20</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">04fa521b58a25510f07c8d28bc33c51f</canvas><component display_value="">3a64f550256090d9578ede76158e899c</component><component_props>{"variant":"header-tertiary","label":"Happening now","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props><h>2</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-20 12:08:24</sys_created_on><sys_id>44fa521bc6a25510c743a6896abace20</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package><sys_policy/><sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope><sys_update_name>par_dashboard_widget_44fa521bc6a25510c743a6896abace20</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-20 12:08:24</sys_updated_on><visualization/><w>12</w><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>529107707</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>32608e231b021110f2b0f7c4464bcb2b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-09-26 08:19:36</sys_created_on>
+        <sys_id>88a5c0ef872a51906198400e8bbb3598</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18378e151c00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>48a5c0ef112a5190addfd6204d4a4698</update_guid>
+        <update_guid_history>48a5c0ef112a5190addfd6204d4a4698:529107707</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">48a5c0ef872a51906198400e8bbb359a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 19:54:31</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>5029524dd93a4ae09ab10c2c6583c4f9</sys_id>
+        <sys_metadata>44fa521bc6a25510c743a6896abace20</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_44fa521bc6a25510c743a6896abace20</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_44fa521bc6a25510c743a6896abace20">88a5c0ef872a51906198400e8bbb3598</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

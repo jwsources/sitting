@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cb4c797e1baa5110f2b0f7c4464bcbfa" extends="task" label="Sitting Task" max_length="40" name="x_snc_sitting_se_0_sitting_task" text_index="true" type="collection"/>
+</database>

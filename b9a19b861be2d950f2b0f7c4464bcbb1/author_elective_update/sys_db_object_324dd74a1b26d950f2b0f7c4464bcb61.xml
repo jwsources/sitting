@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Sitreq</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_snc_sitting_se_0_sitting_request</name>
+        <number_ref display_value="SIT">8f4dd74a1b26d950f2b0f7c4464bcb7c</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 19:45:53</sys_created_on>
+        <sys_id>324dd74a1b26d950f2b0f7c4464bcb61</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Sitreq</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_db_object_324dd74a1b26d950f2b0f7c4464bcb61</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-18 20:40:00</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</application>
+        <file_path/>
+        <instance_id>227680addb82051052dd2f17d4961998</instance_id>
+        <instance_name>demoemployeewf9345</instance_name>
+        <name>sys_db_object_324dd74a1b26d950f2b0f7c4464bcb61</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Sitreq</label><live_feed_enabled>false</live_feed_enabled><name>x_snc_sitting_se_0_sitting_request</name><number_ref display_value="SIT">8f4dd74a1b26d950f2b0f7c4464bcb7c</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-16 19:45:53</sys_created_on><sys_id>324dd74a1b26d950f2b0f7c4464bcb61</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Sitreq</sys_name><sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package><sys_policy/><sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope><sys_update_name>sys_db_object_324dd74a1b26d950f2b0f7c4464bcb61</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-18 20:40:00</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-1837536346</payload_hash>
+        <record_name>Sitreq</record_name>
+        <reverted_from/>
+        <source>b5a19b861be2d950f2b0f7c4464bcbb4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-18 20:40:01</sys_created_on>
+        <sys_id>c3dc79be1baa5110f2b0f7c4464bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183ecd319870000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-18 20:40:01</sys_updated_on>
+        <type>Table</type>
+        <update_guid>0bdc79be51aa5110f2261dac8e187466</update_guid>
+        <update_guid_history>0bdc79be51aa5110f2261dac8e187466:-1837536346,834dd74a5526d950cd754ca19235687c:-620296865</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 11:32:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>3cdb049d259b46f885f15b38c8faf440</sys_id>
+        <sys_metadata>324dd74a1b26d950f2b0f7c4464bcb61</sys_metadata>
+        <sys_name>Sitreq</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
+        <sys_update_name>sys_db_object_324dd74a1b26d950f2b0f7c4464bcb61</sys_update_name>
+        <sys_update_version display_value="sys_db_object_324dd74a1b26d950f2b0f7c4464bcb61">c3dc79be1baa5110f2b0f7c4464bcb67</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

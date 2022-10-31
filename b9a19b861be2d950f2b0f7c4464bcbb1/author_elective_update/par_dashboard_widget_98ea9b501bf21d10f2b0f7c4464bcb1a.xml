@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">c43b48e7876a51906198400e8bbb35cc</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"filterConfigurations":[],"scoreSize":"md","headingPosition":null,"sparklineStyle":"area","showScoreDate":true,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"showHeader":false,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"sortBy":"value","sortByOrder":"desc","showChange":true,"showChangePercentage":true,"showTarget":true,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":true,"showSparkline":true,"showMetricLabel":true,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":true,"period":"M","dateFormat":"default","configVersion":"22.1.7","groupBy":null,"trendBy":null,"colorConfig":{"type":"default"},"dataSources":[{"allowRealTime":true,"allowTotalValue":true,"indicatorType":"1","isScriptedIndicator":false,"label":"Number of new sit requests","sourceType":"indicator","uuid":{"indicator":"a67ebd9382ee1510d26eb8281b767e01","breakdowns":[]},"id":"aW5kaWNhdG9yYTY3ZWJkOTM4MmVlMTUxMGQyNmViODI4MWI3NjdlMDExNjY2NTUyNzk5MjM3","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"aW5kaWNhdG9yYTY3ZWJkOTM4MmVlMTUxMGQyNmViODI4MWI3NjdlMDExNjY2NTUyNzk5MjM3","id":"YVc1a2FXTmhkRzl5WVRZM1pXSmtPVE00TW1WbE1UVXhNR1F5Tm1WaU9ESTRNV0kzTmpkbE1ERXhOalkyTlRVeU56azVNak0zMTY2NjU1Mjc5OTc0NQ==","aggregateIndicator":"","frequency":10,"numberFormat":{"customFormat":false},"axisId":"primary"}],"headerTitle":"Number of new requests"}</component_props>
+        <h>10</h>
+        <name>Number of new requests</name>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-23 19:21:40</sys_created_on>
+        <sys_id>98ea9b501bf21d10f2b0f7c4464bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Number of new requests</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>par_dashboard_widget_98ea9b501bf21d10f2b0f7c4464bcb1a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 19:21:40</sys_updated_on>
+        <visualization display_value="Number of new requests">3d9a13501bf21d10f2b0f7c4464bcbf5</visualization>
+        <w>2</w>
+        <x>10</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</application>
+        <file_path/>
+        <instance_id>227680addb82051052dd2f17d4961998</instance_id>
+        <instance_name>demoemployeewf9345</instance_name>
+        <name>par_dashboard_widget_98ea9b501bf21d10f2b0f7c4464bcb1a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">c43b48e7876a51906198400e8bbb35cc</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"filterConfigurations":[],"scoreSize":"md","headingPosition":null,"sparklineStyle":"area","showScoreDate":true,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"showHeader":false,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"sortBy":"value","sortByOrder":"desc","showChange":true,"showChangePercentage":true,"showTarget":true,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":true,"showSparkline":true,"showMetricLabel":true,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":true,"period":"M","dateFormat":"default","configVersion":"22.1.7","groupBy":null,"trendBy":null,"colorConfig":{"type":"default"},"dataSources":[{"allowRealTime":true,"allowTotalValue":true,"indicatorType":"1","isScriptedIndicator":false,"label":"Number of new sit requests","sourceType":"indicator","uuid":{"indicator":"a67ebd9382ee1510d26eb8281b767e01","breakdowns":[]},"id":"aW5kaWNhdG9yYTY3ZWJkOTM4MmVlMTUxMGQyNmViODI4MWI3NjdlMDExNjY2NTUyNzk5MjM3","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"aW5kaWNhdG9yYTY3ZWJkOTM4MmVlMTUxMGQyNmViODI4MWI3NjdlMDExNjY2NTUyNzk5MjM3","id":"YVc1a2FXTmhkRzl5WVRZM1pXSmtPVE00TW1WbE1UVXhNR1F5Tm1WaU9ESTRNV0kzTmpkbE1ERXhOalkyTlRVeU56azVNak0zMTY2NjU1Mjc5OTc0NQ==","aggregateIndicator":"","frequency":10,"numberFormat":{"customFormat":false},"axisId":"primary"}],"headerTitle":"Number of new requests"}</component_props><h>10</h><name>Number of new requests</name><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-23 19:21:40</sys_created_on><sys_id>98ea9b501bf21d10f2b0f7c4464bcb1a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Number of new requests</sys_name><sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package><sys_policy/><sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope><sys_update_name>par_dashboard_widget_98ea9b501bf21d10f2b0f7c4464bcb1a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-23 19:21:40</sys_updated_on><visualization display_value="Number of new requests">3d9a13501bf21d10f2b0f7c4464bcbf5</visualization><w>2</w><x>10</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1291769220</payload_hash>
+        <record_name>Number of new requests</record_name>
+        <reverted_from/>
+        <source>b5a19b861be2d950f2b0f7c4464bcbb4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-23 19:21:40</sys_created_on>
+        <sys_id>d8ea9b501bf21d10f2b0f7c4464bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184064b2ce70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 19:21:40</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>d0ea9b507df21d10592a255c87d0111c</update_guid>
+        <update_guid_history>d0ea9b507df21d10592a255c87d0111c:1291769220</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Number of new requests">087b5f901bf21d10f2b0f7c4464bcb53</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-23 19:24:06</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>055e37de7bf9476a81df114dbb32c511</sys_id>
+        <sys_metadata>98ea9b501bf21d10f2b0f7c4464bcb1a</sys_metadata>
+        <sys_name>Number of new requests</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_98ea9b501bf21d10f2b0f7c4464bcb1a</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_98ea9b501bf21d10f2b0f7c4464bcb1a">d8ea9b501bf21d10f2b0f7c4464bcb1c</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

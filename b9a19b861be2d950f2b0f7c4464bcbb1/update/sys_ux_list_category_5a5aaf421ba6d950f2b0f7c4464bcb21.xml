@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <configuration display_value="Sitting Services Overview_menu_config">4e5aaf421ba6d950f2b0f7c4464bcb0b</configuration>
+        <description/>
+        <order>100</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:42:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a5aaf421ba6d950f2b0f7c4464bcb21</sys_id>
+        <sys_name>Sitting services</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_ux_list_category_5a5aaf421ba6d950f2b0f7c4464bcb21</sys_update_name>
+        <title>Sitting services</title>
+    </sys_ux_list_category>
+</record_update>

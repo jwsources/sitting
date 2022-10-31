@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
+        <applies_target_record>true</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:ba35e70a1b66d950f2b0f7c4464bcba2!=2dfd9f8a1b26d950f2b0f7c4464bcb7a^EQ</catalog_conditions>
+        <catalog_item display_value="Sitting Request">667463c61b66d950f2b0f7c4464bcb4b</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>200</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {}]]></script_false>
+        <script_true><![CDATA[function onCondition() {}]]></script_true>
+        <set_values/>
+        <short_description>Make 'dog_name' non-mandatory &amp; hidden depending on 'type_of_service'</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:36:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a9d8e78e1b66d950f2b0f7c4464bcbb8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Make 'dog_name' non-mandatory &amp; hidden depending on 'type_of_service'</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>catalog_ui_policy_a9d8e78e1b66d950f2b0f7c4464bcbb8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-16 21:06:08</sys_updated_on>
+        <table/>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</application>
+        <file_path/>
+        <instance_id>227680addb82051052dd2f17d4961998</instance_id>
+        <instance_name>demoemployeewf9345</instance_name>
+        <name>catalog_ui_policy_a9d8e78e1b66d950f2b0f7c4464bcbb8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;true&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:ba35e70a1b66d950f2b0f7c4464bcba2!=2dfd9f8a1b26d950f2b0f7c4464bcb7a^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Sitting Request"&gt;667463c61b66d950f2b0f7c4464bcb4b&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;200&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Make 'dog_name' non-mandatory &amp;amp; hidden depending on 'type_of_service'&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-16 20:36:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a9d8e78e1b66d950f2b0f7c4464bcbb8&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make 'dog_name' non-mandatory &amp;amp; hidden depending on 'type_of_service'&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Sitting Service" source="x_snc_sitting_se_0"&gt;b9a19b861be2d950f2b0f7c4464bcbb1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Sitting Service"&gt;b9a19b861be2d950f2b0f7c4464bcbb1&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_a9d8e78e1b66d950f2b0f7c4464bcbb8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-16 21:06:08&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-824394930</payload_hash>
+        <record_name>Make 'dog_name' non-mandatory &amp; hidden depending on 'type_of_service'</record_name>
+        <reverted_from/>
+        <source>b5a19b861be2d950f2b0f7c4464bcbb4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 21:06:08</sys_created_on>
+        <sys_id>5aafe30e1ba6d950f2b0f7c4464bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183e29e4be80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-16 21:06:08</sys_updated_on>
+        <type>Catalog UI Policy</type>
+        <update_guid>9aafe30ecea6d9502dd972b912a6b246</update_guid>
+        <update_guid_history>9aafe30ecea6d9502dd972b912a6b246:-824394930,53e8ef8ee566d950bb0ff8fb84d365de:893694727,17e8ef8eff66d9508f4713a9b348d7d2:-776664288</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Make 'dog_name' non-mandatory &amp; hidden depending on 'type_of_service'">d692755f1b6e1510f2b0f7c4464bcb8c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-20 09:12:08</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy">catalog_ui_policy</sys_db_object>
+        <sys_id>51448825b65b4940a87a7591e444e184</sys_id>
+        <sys_metadata>a9d8e78e1b66d950f2b0f7c4464bcbb8</sys_metadata>
+        <sys_name>Make 'dog_name' non-mandatory &amp; hidden depending on 'type_of_service'</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_a9d8e78e1b66d950f2b0f7c4464bcbb8</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_a9d8e78e1b66d950f2b0f7c4464bcbb8">5aafe30e1ba6d950f2b0f7c4464bcb47</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

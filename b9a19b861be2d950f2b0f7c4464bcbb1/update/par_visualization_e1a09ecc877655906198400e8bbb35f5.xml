@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <data_source/>
+        <description/>
+        <macroponent display_value="Single score">d24d53f60350de7a652caf3188a46ed2</macroponent>
+        <name>Total age of open Sit Requests</name>
+        <properties>{"filterConfigurations":"@state.parFilters","scoreSize":"md","headingPosition":null,"sparklineStyle":"area","showScoreDate":true,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"sortBy":"value","sortByOrder":"desc","showChange":true,"showChangePercentage":true,"showTarget":true,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":true,"showSparkline":true,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":true,"period":"M","dateFormat":"default","configVersion":"22.1.7","groupBy":null,"trendBy":null,"colorConfig":{"type":"default"},"dataSources":[{"allowRealTime":false,"allowTotalValue":true,"indicatorType":"1","isScriptedIndicator":true,"label":"Summed age of open sit requests","sourceType":"indicator","uuid":{"indicator":"6e7ebd9304ee1510f1b9b352bfec5601","breakdowns":[]},"id":"aW5kaWNhdG9yNmU3ZWJkOTMwNGVlMTUxMGYxYjliMzUyYmZlYzU2MDExNjY2NDY2MjgzMTQ1","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"aW5kaWNhdG9yNmU3ZWJkOTMwNGVlMTUxMGYxYjliMzUyYmZlYzU2MDExNjY2NDY2MjgzMTQ1","id":"YVc1a2FXTmhkRzl5Tm1VM1pXSmtPVE13TkdWbE1UVXhNR1l4WWpsaU16VXlZbVpsWXpVMk1ERXhOalkyTkRZMk1qZ3pNVFExMTY2NjQ2NjI4NDYyNA==","aggregateIndicator":"","frequency":10,"numberFormat":{"customFormat":false},"axisId":"primary"}],"headerTitle":"Total age of open Sit Requests"}</properties>
+        <requested_by/>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-22 19:18:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e1a09ecc877655906198400e8bbb35f5</sys_id>
+        <sys_name>Total age of open Sit Requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>par_visualization_e1a09ecc877655906198400e8bbb35f5</sys_update_name>
+        <title/>
+        <type>Single score</type>
+    </par_visualization>
+</record_update>

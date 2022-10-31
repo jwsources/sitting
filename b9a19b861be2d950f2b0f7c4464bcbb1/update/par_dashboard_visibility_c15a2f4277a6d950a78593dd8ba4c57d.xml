@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Sitting Services Overview">c15a2f4244a6d950dbafea3b85836d7a</dashboard>
+        <experience display_value="Sitting Services Overview">4d5a2f4235a6d9502bbb36c3f7c01781</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:42:51</sys_created_on>
+        <sys_id>c15a2f4277a6d950a78593dd8ba4c57d</sys_id>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>par_dashboard_visibility_c15a2f4277a6d950a78593dd8ba4c57d</sys_update_name>
+    </par_dashboard_visibility>
+</record_update>

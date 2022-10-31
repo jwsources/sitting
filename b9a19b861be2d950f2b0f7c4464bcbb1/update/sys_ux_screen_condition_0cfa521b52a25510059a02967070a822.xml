@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_condition">
+    <sys_ux_screen_condition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions_params_mapping/>
+        <is_result_memoizable>false</is_result_memoizable>
+        <screen display_value="Record Information">84fa521bd2a25510960a40a6dc072d21</screen>
+        <screen_condition/>
+        <script><![CDATA[(function showRecordInformationTab(params) {
+    var ribbonUtil = new x_snc_sitting_se_0.workspaceStarterExpUtils();
+    var experienceId = 'c4fa521b5aa255109dc51f18a3ad8f26';
+
+    // call the form header utility class with the current table, sys id, and experience id
+    var showSidePanelPage = ribbonUtil.shouldShowSidePanel(params.table, params.sysId, experienceId);
+    return showSidePanelPage;
+})(inputProperties);]]></script>
+        <scripted_condition>true</scripted_condition>
+        <sys_class_name>sys_ux_screen_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 12:08:24</sys_created_on>
+        <sys_id>0cfa521b52a25510059a02967070a822</sys_id>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_ux_screen_condition_0cfa521b52a25510059a02967070a822</sys_update_name>
+    </sys_ux_screen_condition>
+</record_update>

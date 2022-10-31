@@ -10,7 +10,7 @@
         <category display_value="Reservations">3d5d71fc533310103d40ddeeff7b1223</category>
         <checked_out>false</checked_out>
         <cost>0</cost>
-        <create_universal_request>false</create_universal_request>
+        <create_universal_request>true</create_universal_request>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
@@ -47,7 +47,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner display_value="Jules Weijters">6816f79cc0a8016401c5a33be04be441</owner>
         <picture>464131db1b6e1510f2b0f7c4464bcbaf</picture>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 
@@ -89,14 +89,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-16 20:17:17</sys_created_on>
         <sys_id>667463c61b66d950f2b0f7c4464bcb4b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
         <sys_name>Sitting Request</sys_name>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
         <sys_update_name>sc_cat_item_producer_667463c61b66d950f2b0f7c4464bcb4b</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-10-20 09:12:17</sys_updated_on>
         <table_name>x_snc_sitting_se_0_sit_request</table_name>
         <taxonomy_topic/>
         <template/>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Sitting Request">667463c61b66d950f2b0f7c4464bcb4b</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:17:17</sys_created_on>
+        <sys_id>327463c61b66d950f2b0f7c4464bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sitting Request.SNC External</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_327463c61b66d950f2b0f7c4464bcb4d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-16 20:17:17</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</application>
+        <file_path/>
+        <instance_id>227680addb82051052dd2f17d4961998</instance_id>
+        <instance_name>demoemployeewf9345</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_327463c61b66d950f2b0f7c4464bcb4d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Sitting Request">667463c61b66d950f2b0f7c4464bcb4b</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-16 20:17:17</sys_created_on><sys_id>327463c61b66d950f2b0f7c4464bcb4d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sitting Request.SNC External</sys_name><sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package><sys_policy/><sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_327463c61b66d950f2b0f7c4464bcb4d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-16 20:17:17</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-1904805649</payload_hash>
+        <record_name>Sitting Request.SNC External</record_name>
+        <reverted_from/>
+        <source>32608e231b021110f2b0f7c4464bcb2b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-09-26 08:19:36</sys_created_on>
+        <sys_id>6292755f1b6e1510f2b0f7c4464bcbef</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18378e151c00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>2292755ff36e1510bbe40fa7cb5695ef</update_guid>
+        <update_guid_history>2292755ff36e1510bbe40fa7cb5695ef:-1904805649</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Sitting Request.SNC External">ee92755f1b6e1510f2b0f7c4464bcbff</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-20 09:12:09</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>0f62b5eb15c04dd997d701ab4d6171c1</sys_id>
+        <sys_metadata>327463c61b66d950f2b0f7c4464bcb4d</sys_metadata>
+        <sys_name>Sitting Request.SNC External</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_327463c61b66d950f2b0f7c4464bcb4d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_327463c61b66d950f2b0f7c4464bcb4d">6292755f1b6e1510f2b0f7c4464bcbef</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

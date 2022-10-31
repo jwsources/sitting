@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="Sitting Service Search Profile">08fa521bdea25510093a05e895598f21</profile>
+        <search_source display_value="Sitting services">f86a63821ba6d950f2b0f7c4464bcb4a</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 12:08:39</sys_created_on>
+        <sys_id>080b561b1ba25510f2b0f7c4464bcbac</sys_id>
+        <sys_name>Sitting Service Search Profile.Sitting services</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_080b561b1ba25510f2b0f7c4464bcbac</sys_update_name>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

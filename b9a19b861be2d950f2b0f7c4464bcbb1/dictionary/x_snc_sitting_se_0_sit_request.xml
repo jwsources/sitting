@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="0c3df1fe1baa5110f2b0f7c4464bcba3" extends="x_snc_sitting_se_0_sitting_task" label="Sit request" max_length="40" name="x_snc_sitting_se_0_sit_request" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Customer address" max_length="100" name="customer_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer city" max_length="60" name="customer_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer email" max_length="40" name="customer_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer name" max_length="40" name="customer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer phone" max_length="40" name="customer_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer postcode" max_length="40" name="customer_postcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Dog name" max_length="40" name="dog_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End of service" max_length="40" name="end_of_service" type="glide_date_time"/>
+        <element label="External State" max_length="32" name="external_state" reference="x_snc_sitting_se_0_state" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Message" max_length="120" name="message" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sitter name" max_length="40" name="sitter_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start of service" max_length="40" name="start_of_service" type="glide_date_time"/>
+        <element label="Type of service" max_length="32" name="type_of_service" reference="x_snc_sitting_se_0_sitting_services" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>write</operation>
+        <source_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-22 14:56:03</sys_created_on>
+        <sys_id>3f74550c1b7a5910f2b0f7c4464bcb30</sys_id>
+        <sys_name>universal_request</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_scope_privilege_3f74550c1b7a5910f2b0f7c4464bcb30</sys_update_name>
+        <target_name>universal_request</target_name>
+        <target_scope display_value="Universal Request">c1ddba4773b10010cbb654eb7df6a76b</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>200</order>
+        <search_context_config display_value="Sitting Service - Workspace Search">0cfa521b05a25510a40c3a91937c1120</search_context_config>
+        <source display_value="Sitting Service - x_snc_sitting_se_0_sitting_servi">f3fa161b1ba25510f2b0f7c4464bcb28</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 12:08:38</sys_created_on>
+        <sys_id>bbfa161b1ba25510f2b0f7c4464bcb2a</sys_id>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_bbfa161b1ba25510f2b0f7c4464bcb2a</sys_update_name>
+    </m2m_search_context_config_search_source>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">895a2f4271a6d95028e1326ac534797a</canvas>
+        <component display_value="">3a64f550256090d9578ede76158e899c</component>
+        <component_props>{"variant":"header-tertiary","label":"Happening now","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props>
+        <h>2</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:42:51</sys_created_on>
+        <sys_id>c95a2f4216a6d950e640d70c52ad657b</sys_id>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>par_dashboard_widget_c95a2f4216a6d950e640d70c52ad657b</sys_update_name>
+        <visualization/>
+        <w>12</w>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

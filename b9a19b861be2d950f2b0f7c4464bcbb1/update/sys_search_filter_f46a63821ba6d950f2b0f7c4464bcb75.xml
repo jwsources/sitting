@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="State">fc6a63821ba6d950f2b0f7c4464bcb6f</ais_search_source>
+        <label>State</label>
+        <name>State</name>
+        <order>300</order>
+        <search_context_config display_value="Sitting Services Overview AI Search Configuration">c55a2f422ea6d950d24318ddabe6d37c</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:43:06</sys_created_on>
+        <sys_id>f46a63821ba6d950f2b0f7c4464bcb75</sys_id>
+        <sys_name>State</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_search_filter_f46a63821ba6d950f2b0f7c4464bcb75</sys_update_name>
+    </sys_search_filter>
+</record_update>

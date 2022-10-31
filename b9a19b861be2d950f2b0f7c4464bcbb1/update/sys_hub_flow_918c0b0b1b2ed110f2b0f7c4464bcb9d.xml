@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>44bf1f4e1b26d950f2b0f7c4464bcbcc</copied_from>
+        <copied_from_name>Sitter-direct integration</copied_from_name>
+        <description>Using the Sitter-direct API</description>
+        <internal_name>sitterdirect_api_integration</internal_name>
+        <label_cache>[{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.table_name","label":"3 - Update Record➛Sit request Table","reference":"x_snc_sitting_se_0_sit_request","reference_display":"Sit request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record","label":"3 - Update Record➛Sit request Record","reference":"x_snc_sitting_se_0_sit_request","reference_display":"Sit request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Sit request Record","reference":"x_snc_sitting_se_0_sit_request","reference_display":"Sit request","type":"reference","base_type":"reference","attributes":{}},{"name":"e8e85989-f7ad-4f10-b8be-3176735713bb.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8e85989-f7ad-4f10-b8be-3176735713bb.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8e85989-f7ad-4f10-b8be-3176735713bb.table_name","label":"4 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8e85989-f7ad-4f10-b8be-3176735713bb.record","label":"4 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.end_of_service","label":"Trigger - Record Created➛Sit request Record➛End of service","reference":"","reference_display":"End of service","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"end_of_service"},{"name":"Created_1.current.start_of_service","label":"Trigger - Record Created➛Sit request Record➛Start of service","reference":"","reference_display":"Start of service","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"start_of_service"},{"name":"Created_1.current.type_of_service.type","label":"Trigger - Record Created➛Sit request Record➛Type of service➛Type","reference":"","reference_display":"Type","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sitting_services","column_name":"type"},{"name":"Created_1.current.customer_email","label":"Trigger - Record Created➛Sit request Record➛Customer email","reference":"","reference_display":"Customer email","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_email"},{"name":"Created_1.current.customer_phone","label":"Trigger - Record Created➛Sit request Record➛Customer phone","reference":"","reference_display":"Customer phone","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_phone"},{"name":"Created_1.current.customer_city","label":"Trigger - Record Created➛Sit request Record➛Customer city","reference":"","reference_display":"Customer city","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_city"},{"name":"Created_1.current.customer_postcode","label":"Trigger - Record Created➛Sit request Record➛Customer postcode","reference":"","reference_display":"Customer postcode","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_postcode"},{"name":"Created_1.current.customer_address","label":"Trigger - Record Created➛Sit request Record➛Customer address","reference":"","reference_display":"Customer address","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_address"},{"name":"Created_1.current.customer_name","label":"Trigger - Record Created➛Sit request Record➛Customer name","reference":"","reference_display":"Customer name","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_name"},{"name":"4b1ee5f6-6349-4e8b-b69d-d8f5d412c241.__dont_treat_as_error__","label":"4 - Sitting API➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"230539e2-a3ad-4434-a933-80bea59cf2b8"}},{"name":"4b1ee5f6-6349-4e8b-b69d-d8f5d412c241.__action_status__","label":"4 - Sitting API➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d2fc244f-3382-4787-8c2a-26dd5380994a"}},{"name":"4b1ee5f6-6349-4e8b-b69d-d8f5d412c241.confirmation","label":"4 - Sitting API➛Confirmation","reference_display":"Confirmation","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8a953918-e419-4a8b-a348-6968110a5af0"}},{"name":"4b1ee5f6-6349-4e8b-b69d-d8f5d412c241.variable","label":"4 - Sitting API➛Sitter","reference_display":"Sitter","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1031e22c-294e-4ddb-8dbf-d72cf913aaff"}},{"name":"Created_1.current.type_of_service","label":"Trigger - Record Created➛Sit request Record➛Type of service","reference":"x_snc_sitting_se_0_sitting_services","reference_display":"Sitting services","type":"reference","base_type":"reference","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"type_of_service"},{"name":"Created_1.current.opened_by","label":"Trigger - Record Created➛Sit request Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"opened_by"},{"name":"Created_1.current.opened_by.name","label":"Trigger - Record Created➛Sit request Record➛Opened by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.opened_by.home_phone","label":"Trigger - Record Created➛Sit request Record➛Opened by➛Home phone","reference":"","reference_display":"Home phone","type":"ph_number","base_type":"ph_number","parent_table_name":"sys_user","column_name":"home_phone"},{"name":"Created_1.current.opened_by.email","label":"Trigger - Record Created➛Sit request Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.customer_name","label":"3 - Update Record➛Sit request Record➛Customer name","reference":"","reference_display":"Customer name","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_name"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.customer_address","label":"3 - Update Record➛Sit request Record➛Customer address","reference":"","reference_display":"Customer address","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_address"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.customer_postcode","label":"3 - Update Record➛Sit request Record➛Customer postcode","reference":"","reference_display":"Customer postcode","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_postcode"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.customer_city","label":"3 - Update Record➛Sit request Record➛Customer city","reference":"","reference_display":"Customer city","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_city"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.opened_by.phone","label":"3 - Update Record➛Sit request Record➛Opened by➛Business phone","reference":"","reference_display":"Business phone","type":"ph_number","base_type":"ph_number","parent_table_name":"sys_user","column_name":"phone"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.opened_by.home_phone","label":"3 - Update Record➛Sit request Record➛Opened by➛Home phone","reference":"","reference_display":"Home phone","type":"ph_number","base_type":"ph_number","parent_table_name":"sys_user","column_name":"home_phone"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.opened_by.email","label":"3 - Update Record➛Sit request Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.type_of_service","label":"3 - Update Record➛Sit request Record➛Type of service","reference":"x_snc_sitting_se_0_sitting_services","reference_display":"Sitting services","type":"reference","base_type":"reference","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"type_of_service"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.start_of_service","label":"3 - Update Record➛Sit request Record➛Start of service","reference":"","reference_display":"Start of service","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"start_of_service"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.end_of_service","label":"3 - Update Record➛Sit request Record➛End of service","reference":"","reference_display":"End of service","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"end_of_service"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.type_of_service.type","label":"3 - Update Record➛Sit request Record➛Type of service➛Type","reference":"","reference_display":"Type","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sitting_services","column_name":"type"},{"name":"8e9c680b-5549-44b9-a129-cf650aa435f6.record","label":"2 - Update Record➛Sit request Record","reference":"x_snc_sitting_se_0_sit_request","reference_display":"Sit request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e9c680b-5549-44b9-a129-cf650aa435f6.table_name","label":"2 - Update Record➛Sit request Table","reference":"x_snc_sitting_se_0_sit_request","reference_display":"Sit request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e9c680b-5549-44b9-a129-cf650aa435f6.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e9c680b-5549-44b9-a129-cf650aa435f6.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a897c8d1-c9c9-48c3-bb3a-1d20156e8308.Records","label":"6 - Look Up Records➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a897c8d1-c9c9-48c3-bb3a-1d20156e8308.Table","label":"6 - Look Up Records➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a897c8d1-c9c9-48c3-bb3a-1d20156e8308.Count","label":"6 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a897c8d1-c9c9-48c3-bb3a-1d20156e8308.__action_status__","label":"6 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"a897c8d1-c9c9-48c3-bb3a-1d20156e8308.__dont_treat_as_error__","label":"6 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"f087526e-e6a0-4099-8542-1da626785f22.record","label":"4 - Update Record➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f087526e-e6a0-4099-8542-1da626785f22.table_name","label":"4 - Update Record➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f087526e-e6a0-4099-8542-1da626785f22.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f087526e-e6a0-4099-8542-1da626785f22.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.parent","label":"3 - Update Record➛Sit request Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"parent"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.universal_request","label":"3 - Update Record➛Sit request Record➛Universal Request","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"universal_request"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.short_description","label":"3 - Update Record➛Sit request Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"short_description"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.state","label":"3 - Update Record➛Sit request Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"state","choices":[{"used":false,"label":"Pending","image":"","reference":false,"rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"task"}},{"used":false,"label":"Open","image":"","reference":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"task"}},{"used":false,"label":"Work in Progress","image":"","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"task"}},{"used":false,"label":"Closed Complete","image":"","reference":false,"rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"task"}},{"used":false,"label":"Closed Incomplete","image":"","reference":false,"rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"task"}},{"used":false,"label":"Closed Skipped","image":"","reference":false,"rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"task"}}]},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.comments_and_work_notes","label":"3 - Update Record➛Sit request Record➛Comments and Work notes","reference":"","reference_display":"Comments and Work notes","type":"journal_list","base_type":"journal_list","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"comments_and_work_notes"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.comments","label":"3 - Update Record➛Sit request Record➛Additional comments","reference":"","reference_display":"Additional comments","type":"journal_input","base_type":"journal_input","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"comments"}]</label_cache>
+        <master_snapshot>d8b0d3831b6ed110f2b0f7c4464bcbda</master_snapshot>
+        <name>Sitter-direct Request</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>44355bd41bb21d10f2b0f7c4464bcb68</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:06:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>918c0b0b1b2ed110f2b0f7c4464bcb9d</sys_id>
+        <sys_name>Sitter-direct Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_hub_flow_918c0b0b1b2ed110f2b0f7c4464bcb9d</sys_update_name>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=918c0b0b1b2ed110f2b0f7c4464bcb9d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=918c0b0b1b2ed110f2b0f7c4464bcb9d"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_sitting_se_0_sit_request">state=1<item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-23 18:56:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>44355bd41bb21d10f2b0f7c4464bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:48</sys_updated_on>
+        <table>x_snc_sitting_se_0_sit_request</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>918c0b0b1b2ed110f2b0f7c4464bcb9d</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-23 18:56:48</sys_created_on>
+        <sys_id>00355bd41bb21d10f2b0f7c4464bcb69</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:48</sys_updated_on>
+        <trigger display_value="">44355bd41bb21d10f2b0f7c4464bcb68</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=918c0b0b1b2ed110f2b0f7c4464bcb9d^sys_idNOT IN00355bd41bb21d10f2b0f7c4464bcb69"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=918c0b0b1b2ed110f2b0f7c4464bcb9d^sys_idNOT IN6d8c0b0b1b2ed110f2b0f7c4464bcbea"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Sitter-direct Request">918c0b0b1b2ed110f2b0f7c4464bcb9d</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:06:33</sys_created_on>
+        <sys_id>6d8c0b0b1b2ed110f2b0f7c4464bcbea</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:49</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6d8c0b0b1b2ed110f2b0f7c4464bcbea"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6d8c0b0b1b2ed110f2b0f7c4464bcbea</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:06:33</sys_created_on>
+        <sys_id>218c0b0b1b2ed110f2b0f7c4464bcbec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:15:46</sys_updated_on>
+        <value>x_snc_sitting_se_0_sit_request</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6d8c0b0b1b2ed110f2b0f7c4464bcbea</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:06:33</sys_created_on>
+        <sys_id>6d8c0b0b1b2ed110f2b0f7c4464bcbeb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:24:38</sys_updated_on>
+        <value>state=1</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=918c0b0b1b2ed110f2b0f7c4464bcb9d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=918c0b0b1b2ed110f2b0f7c4464bcb9d^sys_idNOT IN158c0b0b1b2ed110f2b0f7c4464bcb9e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>918c0b0b1b2ed110f2b0f7c4464bcb9d</id>
+        <name>Sitter-direct API integration</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:06:31</sys_created_on>
+        <sys_id>158c0b0b1b2ed110f2b0f7c4464bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:06:31</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=158c0b0b1b2ed110f2b0f7c4464bcb9e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=918c0b0b1b2ed110f2b0f7c4464bcb9d^sys_idNOT IN198c0b0b1b2ed110f2b0f7c4464bcba8,518c0b0b1b2ed110f2b0f7c4464bcbaf"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Sitter-direct Request">918c0b0b1b2ed110f2b0f7c4464bcb9d</model>
+        <model_id>918c0b0b1b2ed110f2b0f7c4464bcb9d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_918c0b0b1b2ed110f2b0f7c4464bcb9d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:06:32</sys_created_on>
+        <sys_id>198c0b0b1b2ed110f2b0f7c4464bcba8</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Sitter-direct Request">918c0b0b1b2ed110f2b0f7c4464bcb9d</model>
+        <model_id>918c0b0b1b2ed110f2b0f7c4464bcb9d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_918c0b0b1b2ed110f2b0f7c4464bcb9d</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:06:32</sys_created_on>
+        <sys_id>518c0b0b1b2ed110f2b0f7c4464bcbaf</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=918c0b0b1b2ed110f2b0f7c4464bcb9d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=918c0b0b1b2ed110f2b0f7c4464bcb9d"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=918c0b0b1b2ed110f2b0f7c4464bcb9d^sys_idNOT IN6f5295081b7a5910f2b0f7c4464bcb25,d34cb19f1bae1510f2b0f7c4464bcb3b,ed8c0b0b1b2ed110f2b0f7c4464bcbb7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Sitter-direct Request">918c0b0b1b2ed110f2b0f7c4464bcb9d</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-22 14:46:46</sys_created_on>
+        <sys_id>6f5295081b7a5910f2b0f7c4464bcb25</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-24 15:16:13</sys_updated_on>
+        <ui_id>f087526e-e6a0-4099-8542-1da626785f22</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6f5295081b7a5910f2b0f7c4464bcb25"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6f5295081b7a5910f2b0f7c4464bcb25</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-22 14:46:46</sys_created_on>
+        <sys_id>e35295081b7a5910f2b0f7c4464bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-22 14:46:46</sys_updated_on>
+        <value>task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6f5295081b7a5910f2b0f7c4464bcb25"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6f5295081b7a5910f2b0f7c4464bcb25</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-22 14:46:46</sys_created_on>
+        <sys_id>635295081b7a5910f2b0f7c4464bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-22 14:46:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{cb3172a9-e516-4dfc-a67e-66cec67735fb.record.universal_request}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6f5295081b7a5910f2b0f7c4464bcb25</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-22 14:46:46</sys_created_on>
+        <sys_id>e75295081b7a5910f2b0f7c4464bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-22 14:46:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6f5295081b7a5910f2b0f7c4464bcb25</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-22 14:46:46</sys_created_on>
+        <sys_id>af5295081b7a5910f2b0f7c4464bcb27</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-22 15:09:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>short_description={{cb3172a9-e516-4dfc-a67e-66cec67735fb.record.short_description}}^state={{cb3172a9-e516-4dfc-a67e-66cec67735fb.record.state}}^comments={{cb3172a9-e516-4dfc-a67e-66cec67735fb.record.comments}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6f5295081b7a5910f2b0f7c4464bcb25"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6f5295081b7a5910f2b0f7c4464bcb25"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Sitter-direct Request">918c0b0b1b2ed110f2b0f7c4464bcb9d</flow>
+        <order>2</order>
+        <parent_ui_id>cc73b13e-b035-49d0-86fd-662e0e0e94fe</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:54:31</sys_created_on>
+        <sys_id>d34cb19f1bae1510f2b0f7c4464bcb3b</sys_id>
+        <sys_mod_count>64</sys_mod_count>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-24 15:16:13</sys_updated_on>
+        <ui_id>8e9c680b-5549-44b9-a129-cf650aa435f6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d34cb19f1bae1510f2b0f7c4464bcb3b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d34cb19f1bae1510f2b0f7c4464bcb3b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:54:31</sys_created_on>
+        <sys_id>1f4cb19f1bae1510f2b0f7c4464bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:54:31</sys_updated_on>
+        <value>dog_name=N/A﻿</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d34cb19f1bae1510f2b0f7c4464bcb3b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:54:31</sys_created_on>
+        <sys_id>df4cb19f1bae1510f2b0f7c4464bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:54:31</sys_updated_on>
+        <value>x_snc_sitting_se_0_sit_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d34cb19f1bae1510f2b0f7c4464bcb3b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d34cb19f1bae1510f2b0f7c4464bcb3b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:54:31</sys_created_on>
+        <sys_id>9b4cb19f1bae1510f2b0f7c4464bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:54:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d34cb19f1bae1510f2b0f7c4464bcb3b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:54:31</sys_created_on>
+        <sys_id>174cb19f1bae1510f2b0f7c4464bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:54:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d34cb19f1bae1510f2b0f7c4464bcb3b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:54:31</sys_created_on>
+        <sys_id>d74cb19f1bae1510f2b0f7c4464bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:54:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d34cb19f1bae1510f2b0f7c4464bcb3b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d34cb19f1bae1510f2b0f7c4464bcb3b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Sitter-direct Request">918c0b0b1b2ed110f2b0f7c4464bcb9d</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:06:32</sys_created_on>
+        <sys_id>ed8c0b0b1b2ed110f2b0f7c4464bcbb7</sys_id>
+        <sys_mod_count>118</sys_mod_count>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-24 15:16:13</sys_updated_on>
+        <ui_id>cb3172a9-e516-4dfc-a67e-66cec67735fb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ed8c0b0b1b2ed110f2b0f7c4464bcbb7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ed8c0b0b1b2ed110f2b0f7c4464bcbb7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:06:32</sys_created_on>
+        <sys_id>ad8c0b0b1b2ed110f2b0f7c4464bcbba</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:50:56</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ed8c0b0b1b2ed110f2b0f7c4464bcbb7</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:06:32</sys_created_on>
+        <sys_id>e58c0b0b1b2ed110f2b0f7c4464bcbbb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:15:46</sys_updated_on>
+        <value>x_snc_sitting_se_0_sit_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ed8c0b0b1b2ed110f2b0f7c4464bcbb7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ed8c0b0b1b2ed110f2b0f7c4464bcbb7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:06:32</sys_created_on>
+        <sys_id>2d8c0b0b1b2ed110f2b0f7c4464bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:06:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ed8c0b0b1b2ed110f2b0f7c4464bcbb7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:06:32</sys_created_on>
+        <sys_id>618c0b0b1b2ed110f2b0f7c4464bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:06:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ed8c0b0b1b2ed110f2b0f7c4464bcbb7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:06:32</sys_created_on>
+        <sys_id>698c0b0b1b2ed110f2b0f7c4464bcbba</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>external_state={"display":"Externally requested","value":"17c2e3c21b66d950f2b0f7c4464bcb55","sys_id":"17c2e3c21b66d950f2b0f7c4464bcb55"}^active=true^state=2^customer_name={{Created_1.current.opened_by.name}}^customer_phone={{Created_1.current.opened_by.home_phone}}^customer_email={{Created_1.current.opened_by.email}}^short_description=Requested ﻿{{Created_1.current.type_of_service.type}} to start at ﻿{{Created_1.current.start_of_service}} and end at ﻿{{Created_1.current.end_of_service}}. Location: ﻿{{Created_1.current.customer_address}} ﻿{{Created_1.current.customer_city}}^comments=Request will via API be sent to Sittersdirect, just sit and wait!﻿</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ed8c0b0b1b2ed110f2b0f7c4464bcbb7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ed8c0b0b1b2ed110f2b0f7c4464bcbb7"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=918c0b0b1b2ed110f2b0f7c4464bcb9d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=918c0b0b1b2ed110f2b0f7c4464bcb9d^sys_idNOT IN1f4cb19f1bae1510f2b0f7c4464bcb25"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">1f4cb19f1bae1510f2b0f7c4464bcb24</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sitter-direct Request">918c0b0b1b2ed110f2b0f7c4464bcb9d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:54:31</sys_created_on>
+        <sys_id>1f4cb19f1bae1510f2b0f7c4464bcb25</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:49</sys_updated_on>
+        <ui_id>cc73b13e-b035-49d0-86fd-662e0e0e94fe</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1f4cb19f1bae1510f2b0f7c4464bcb25"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>1f4cb19f1bae1510f2b0f7c4464bcb25</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:54:31</sys_created_on>
+        <sys_id>174cb19f1bae1510f2b0f7c4464bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:54:31</sys_updated_on>
+        <value>No Dog sitting</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1f4cb19f1bae1510f2b0f7c4464bcb25"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>1f4cb19f1bae1510f2b0f7c4464bcb25</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:54:31</sys_created_on>
+        <sys_id>934cb19f1bae1510f2b0f7c4464bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:54:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.type_of_service.type}}!=Dog sitting﻿</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>1f4cb19f1bae1510f2b0f7c4464bcb25</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:54:31</sys_created_on>
+        <sys_id>db4cb19f1bae1510f2b0f7c4464bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:54:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1f4cb19f1bae1510f2b0f7c4464bcb25"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1f4cb19f1bae1510f2b0f7c4464bcb25"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=918c0b0b1b2ed110f2b0f7c4464bcb9d"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=918c0b0b1b2ed110f2b0f7c4464bcb9d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_918c0b0b1b2ed110f2b0f7c4464bcb9d^sys_idNOT IN118c0b0b1b2ed110f2b0f7c4464bcbae,d58c0b0b1b2ed110f2b0f7c4464bcbb1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_918c0b0b1b2ed110f2b0f7c4464bcb9d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:06:32</sys_created_on>
+        <sys_id>118c0b0b1b2ed110f2b0f7c4464bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:06:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_918c0b0b1b2ed110f2b0f7c4464bcb9d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:06:32</sys_created_on>
+        <sys_id>d58c0b0b1b2ed110f2b0f7c4464bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:06:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_918c0b0b1b2ed110f2b0f7c4464bcb9d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_918c0b0b1b2ed110f2b0f7c4464bcb9d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_918c0b0b1b2ed110f2b0f7c4464bcb9d"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=918c0b0b1b2ed110f2b0f7c4464bcb9d^sys_idNOT IN41b057831b6ed110f2b0f7c4464bcb18"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"41b057831b6ed110f2b0f7c4464bcb18","name":"plan","plan_signature":null}}</plan>
+        <plan_id>918c0b0b1b2ed110f2b0f7c4464bcb9d</plan_id>
+        <snapshot>aa4cab6487be11106198400e8bbb3546</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>41b057831b6ed110f2b0f7c4464bcb18</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:48</sys_updated_on>
+        <trigger display_value="">44355bd41bb21d10f2b0f7c4464bcb68</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=918c0b0b1b2ed110f2b0f7c4464bcb9d"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Using the Sitter-direct API</description>
+        <internal_name>sitterdirect_api_integration</internal_name>
+        <label_cache>[{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.table_name","label":"3 - Update Record➛Sit request Table","reference":"x_snc_sitting_se_0_sit_request","reference_display":"Sit request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record","label":"3 - Update Record➛Sit request Record","reference":"x_snc_sitting_se_0_sit_request","reference_display":"Sit request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Sit request Record","reference":"x_snc_sitting_se_0_sit_request","reference_display":"Sit request","type":"reference","base_type":"reference","attributes":{}},{"name":"e8e85989-f7ad-4f10-b8be-3176735713bb.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8e85989-f7ad-4f10-b8be-3176735713bb.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8e85989-f7ad-4f10-b8be-3176735713bb.table_name","label":"4 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e8e85989-f7ad-4f10-b8be-3176735713bb.record","label":"4 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.end_of_service","label":"Trigger - Record Created➛Sit request Record➛End of service","reference":"","reference_display":"End of service","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"end_of_service"},{"name":"Created_1.current.start_of_service","label":"Trigger - Record Created➛Sit request Record➛Start of service","reference":"","reference_display":"Start of service","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"start_of_service"},{"name":"Created_1.current.type_of_service.type","label":"Trigger - Record Created➛Sit request Record➛Type of service➛Type","reference":"","reference_display":"Type","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sitting_services","column_name":"type"},{"name":"Created_1.current.customer_email","label":"Trigger - Record Created➛Sit request Record➛Customer email","reference":"","reference_display":"Customer email","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_email"},{"name":"Created_1.current.customer_phone","label":"Trigger - Record Created➛Sit request Record➛Customer phone","reference":"","reference_display":"Customer phone","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_phone"},{"name":"Created_1.current.customer_city","label":"Trigger - Record Created➛Sit request Record➛Customer city","reference":"","reference_display":"Customer city","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_city"},{"name":"Created_1.current.customer_postcode","label":"Trigger - Record Created➛Sit request Record➛Customer postcode","reference":"","reference_display":"Customer postcode","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_postcode"},{"name":"Created_1.current.customer_address","label":"Trigger - Record Created➛Sit request Record➛Customer address","reference":"","reference_display":"Customer address","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_address"},{"name":"Created_1.current.customer_name","label":"Trigger - Record Created➛Sit request Record➛Customer name","reference":"","reference_display":"Customer name","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_name"},{"name":"4b1ee5f6-6349-4e8b-b69d-d8f5d412c241.__dont_treat_as_error__","label":"4 - Sitting API➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"230539e2-a3ad-4434-a933-80bea59cf2b8"}},{"name":"4b1ee5f6-6349-4e8b-b69d-d8f5d412c241.__action_status__","label":"4 - Sitting API➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d2fc244f-3382-4787-8c2a-26dd5380994a"}},{"name":"4b1ee5f6-6349-4e8b-b69d-d8f5d412c241.confirmation","label":"4 - Sitting API➛Confirmation","reference_display":"Confirmation","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8a953918-e419-4a8b-a348-6968110a5af0"}},{"name":"4b1ee5f6-6349-4e8b-b69d-d8f5d412c241.variable","label":"4 - Sitting API➛Sitter","reference_display":"Sitter","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1031e22c-294e-4ddb-8dbf-d72cf913aaff"}},{"name":"Created_1.current.type_of_service","label":"Trigger - Record Created➛Sit request Record➛Type of service","reference":"x_snc_sitting_se_0_sitting_services","reference_display":"Sitting services","type":"reference","base_type":"reference","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"type_of_service"},{"name":"Created_1.current.opened_by","label":"Trigger - Record Created➛Sit request Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"opened_by"},{"name":"Created_1.current.opened_by.name","label":"Trigger - Record Created➛Sit request Record➛Opened by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.opened_by.home_phone","label":"Trigger - Record Created➛Sit request Record➛Opened by➛Home phone","reference":"","reference_display":"Home phone","type":"ph_number","base_type":"ph_number","parent_table_name":"sys_user","column_name":"home_phone"},{"name":"Created_1.current.opened_by.email","label":"Trigger - Record Created➛Sit request Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.customer_name","label":"3 - Update Record➛Sit request Record➛Customer name","reference":"","reference_display":"Customer name","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_name"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.customer_address","label":"3 - Update Record➛Sit request Record➛Customer address","reference":"","reference_display":"Customer address","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_address"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.customer_postcode","label":"3 - Update Record➛Sit request Record➛Customer postcode","reference":"","reference_display":"Customer postcode","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_postcode"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.customer_city","label":"3 - Update Record➛Sit request Record➛Customer city","reference":"","reference_display":"Customer city","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"customer_city"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.opened_by.phone","label":"3 - Update Record➛Sit request Record➛Opened by➛Business phone","reference":"","reference_display":"Business phone","type":"ph_number","base_type":"ph_number","parent_table_name":"sys_user","column_name":"phone"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.opened_by.home_phone","label":"3 - Update Record➛Sit request Record➛Opened by➛Home phone","reference":"","reference_display":"Home phone","type":"ph_number","base_type":"ph_number","parent_table_name":"sys_user","column_name":"home_phone"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.opened_by.email","label":"3 - Update Record➛Sit request Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.type_of_service","label":"3 - Update Record➛Sit request Record➛Type of service","reference":"x_snc_sitting_se_0_sitting_services","reference_display":"Sitting services","type":"reference","base_type":"reference","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"type_of_service"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.start_of_service","label":"3 - Update Record➛Sit request Record➛Start of service","reference":"","reference_display":"Start of service","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"start_of_service"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.end_of_service","label":"3 - Update Record➛Sit request Record➛End of service","reference":"","reference_display":"End of service","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"end_of_service"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.type_of_service.type","label":"3 - Update Record➛Sit request Record➛Type of service➛Type","reference":"","reference_display":"Type","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sitting_services","column_name":"type"},{"name":"8e9c680b-5549-44b9-a129-cf650aa435f6.record","label":"2 - Update Record➛Sit request Record","reference":"x_snc_sitting_se_0_sit_request","reference_display":"Sit request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e9c680b-5549-44b9-a129-cf650aa435f6.table_name","label":"2 - Update Record➛Sit request Table","reference":"x_snc_sitting_se_0_sit_request","reference_display":"Sit request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e9c680b-5549-44b9-a129-cf650aa435f6.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e9c680b-5549-44b9-a129-cf650aa435f6.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a897c8d1-c9c9-48c3-bb3a-1d20156e8308.Records","label":"6 - Look Up Records➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a897c8d1-c9c9-48c3-bb3a-1d20156e8308.Table","label":"6 - Look Up Records➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a897c8d1-c9c9-48c3-bb3a-1d20156e8308.Count","label":"6 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a897c8d1-c9c9-48c3-bb3a-1d20156e8308.__action_status__","label":"6 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"a897c8d1-c9c9-48c3-bb3a-1d20156e8308.__dont_treat_as_error__","label":"6 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"f087526e-e6a0-4099-8542-1da626785f22.record","label":"4 - Update Record➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f087526e-e6a0-4099-8542-1da626785f22.table_name","label":"4 - Update Record➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f087526e-e6a0-4099-8542-1da626785f22.__action_status__","label":"4 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f087526e-e6a0-4099-8542-1da626785f22.__dont_treat_as_error__","label":"4 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.parent","label":"3 - Update Record➛Sit request Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"parent"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.universal_request","label":"3 - Update Record➛Sit request Record➛Universal Request","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"universal_request"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.short_description","label":"3 - Update Record➛Sit request Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"short_description"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.state","label":"3 - Update Record➛Sit request Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"state","choices":[{"used":false,"label":"Pending","image":"","reference":false,"rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"task"}},{"used":false,"label":"Open","image":"","reference":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"task"}},{"used":false,"label":"Work in Progress","image":"","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"task"}},{"used":false,"label":"Closed Complete","image":"","reference":false,"rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"task"}},{"used":false,"label":"Closed Incomplete","image":"","reference":false,"rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"task"}},{"used":false,"label":"Closed Skipped","image":"","reference":false,"rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"task"}}]},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.comments_and_work_notes","label":"3 - Update Record➛Sit request Record➛Comments and Work notes","reference":"","reference_display":"Comments and Work notes","type":"journal_list","base_type":"journal_list","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"comments_and_work_notes"},{"name":"cb3172a9-e516-4dfc-a67e-66cec67735fb.record.comments","label":"3 - Update Record➛Sit request Record➛Additional comments","reference":"","reference_display":"Additional comments","type":"journal_input","base_type":"journal_input","parent_table_name":"x_snc_sitting_se_0_sit_request","column_name":"comments"}]</label_cache>
+        <master>true</master>
+        <name>Sitter-direct Request</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Sitter-direct Request">918c0b0b1b2ed110f2b0f7c4464bcb9d</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d8b0d3831b6ed110f2b0f7c4464bcbda</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:48</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d8b0d3831b6ed110f2b0f7c4464bcbda"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d8b0d3831b6ed110f2b0f7c4464bcbda"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d8b0d3831b6ed110f2b0f7c4464bcbda^sys_idNOT IN20b017831b6ed110f2b0f7c4464bcb9a"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Sitter-direct Request">d8b0d3831b6ed110f2b0f7c4464bcbda</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:47</sys_created_on>
+        <sys_id>20b017831b6ed110f2b0f7c4464bcb9a</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:48</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=20b017831b6ed110f2b0f7c4464bcb9a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>20b017831b6ed110f2b0f7c4464bcb9a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:47</sys_created_on>
+        <sys_id>2cb017831b6ed110f2b0f7c4464bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:24:47</sys_updated_on>
+        <value>x_snc_sitting_se_0_sit_request</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>20b017831b6ed110f2b0f7c4464bcb9a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:47</sys_created_on>
+        <sys_id>68b017831b6ed110f2b0f7c4464bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:24:47</sys_updated_on>
+        <value>state=1</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d8b0d3831b6ed110f2b0f7c4464bcbda"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d8b0d3831b6ed110f2b0f7c4464bcbda^sys_idNOT IN5cb0d3831b6ed110f2b0f7c4464bcbdb"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d8b0d3831b6ed110f2b0f7c4464bcbda</id>
+        <name>Sitter-direct API integration</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:46</sys_created_on>
+        <sys_id>5cb0d3831b6ed110f2b0f7c4464bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:24:46</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=5cb0d3831b6ed110f2b0f7c4464bcbdb"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d8b0d3831b6ed110f2b0f7c4464bcbda^sys_idNOT IN24b0d3831b6ed110f2b0f7c4464bcbf9,d0b0d3831b6ed110f2b0f7c4464bcbdd"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Sitter-direct Request">d8b0d3831b6ed110f2b0f7c4464bcbda</model>
+        <model_id>d8b0d3831b6ed110f2b0f7c4464bcbda</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d8b0d3831b6ed110f2b0f7c4464bcbda</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:46</sys_created_on>
+        <sys_id>24b0d3831b6ed110f2b0f7c4464bcbf9</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Sitter-direct Request">d8b0d3831b6ed110f2b0f7c4464bcbda</model>
+        <model_id>d8b0d3831b6ed110f2b0f7c4464bcbda</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d8b0d3831b6ed110f2b0f7c4464bcbda</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:46</sys_created_on>
+        <sys_id>d0b0d3831b6ed110f2b0f7c4464bcbdd</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=d8b0d3831b6ed110f2b0f7c4464bcbda"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d8b0d3831b6ed110f2b0f7c4464bcbda"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d8b0d3831b6ed110f2b0f7c4464bcbda^sys_idNOT IN70825d081b7a5910f2b0f7c4464bcb07,e4b017831b6ed110f2b0f7c4464bcb17,e88c399f1bae1510f2b0f7c4464bcb51"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Sitter-direct Request">d8b0d3831b6ed110f2b0f7c4464bcbda</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-22 14:47:24</sys_created_on>
+        <sys_id>70825d081b7a5910f2b0f7c4464bcb07</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:48</sys_updated_on>
+        <ui_id>f087526e-e6a0-4099-8542-1da626785f22</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=70825d081b7a5910f2b0f7c4464bcb07"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>70825d081b7a5910f2b0f7c4464bcb07</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-22 14:47:24</sys_created_on>
+        <sys_id>b8825d081b7a5910f2b0f7c4464bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-22 14:47:24</sys_updated_on>
+        <value>task</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=70825d081b7a5910f2b0f7c4464bcb07"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>70825d081b7a5910f2b0f7c4464bcb07</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-22 14:47:24</sys_created_on>
+        <sys_id>38825d081b7a5910f2b0f7c4464bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-22 14:47:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{cb3172a9-e516-4dfc-a67e-66cec67735fb.record.universal_request}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>70825d081b7a5910f2b0f7c4464bcb07</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-22 14:47:24</sys_created_on>
+        <sys_id>b0825d081b7a5910f2b0f7c4464bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-22 14:47:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>70825d081b7a5910f2b0f7c4464bcb07</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-22 14:47:24</sys_created_on>
+        <sys_id>74825d081b7a5910f2b0f7c4464bcb08</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-22 15:09:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>short_description={{cb3172a9-e516-4dfc-a67e-66cec67735fb.record.short_description}}^state={{cb3172a9-e516-4dfc-a67e-66cec67735fb.record.state}}^comments={{cb3172a9-e516-4dfc-a67e-66cec67735fb.record.comments}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=70825d081b7a5910f2b0f7c4464bcb07"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=70825d081b7a5910f2b0f7c4464bcb07"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Sitter-direct Request">d8b0d3831b6ed110f2b0f7c4464bcbda</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:46</sys_created_on>
+        <sys_id>e4b017831b6ed110f2b0f7c4464bcb17</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:48</sys_updated_on>
+        <ui_id>cb3172a9-e516-4dfc-a67e-66cec67735fb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e4b017831b6ed110f2b0f7c4464bcb17"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e4b017831b6ed110f2b0f7c4464bcb17</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:46</sys_created_on>
+        <sys_id>60b017831b6ed110f2b0f7c4464bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:24:46</sys_updated_on>
+        <value>x_snc_sitting_se_0_sit_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e4b017831b6ed110f2b0f7c4464bcb17</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:46</sys_created_on>
+        <sys_id>68b017831b6ed110f2b0f7c4464bcb19</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:51:04</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e4b017831b6ed110f2b0f7c4464bcb17"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e4b017831b6ed110f2b0f7c4464bcb17</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:46</sys_created_on>
+        <sys_id>e4b017831b6ed110f2b0f7c4464bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:24:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e4b017831b6ed110f2b0f7c4464bcb17</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:46</sys_created_on>
+        <sys_id>6cb017831b6ed110f2b0f7c4464bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:24:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e4b017831b6ed110f2b0f7c4464bcb17</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:46</sys_created_on>
+        <sys_id>24b017831b6ed110f2b0f7c4464bcb19</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>external_state={"display":"Externally requested","value":"17c2e3c21b66d950f2b0f7c4464bcb55","sys_id":"17c2e3c21b66d950f2b0f7c4464bcb55"}^active=true^state=2^customer_name={{Created_1.current.opened_by.name}}^customer_phone={{Created_1.current.opened_by.home_phone}}^customer_email={{Created_1.current.opened_by.email}}^short_description=Requested ﻿{{Created_1.current.type_of_service.type}} to start at ﻿{{Created_1.current.start_of_service}} and end at ﻿{{Created_1.current.end_of_service}}. Location: ﻿{{Created_1.current.customer_address}} ﻿{{Created_1.current.customer_city}}^comments=Request will via API be sent to Sittersdirect, just sit and wait!﻿</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e4b017831b6ed110f2b0f7c4464bcb17"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e4b017831b6ed110f2b0f7c4464bcb17"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Sitter-direct Request">d8b0d3831b6ed110f2b0f7c4464bcbda</flow>
+        <order>2</order>
+        <parent_ui_id>cc73b13e-b035-49d0-86fd-662e0e0e94fe</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:55:26</sys_created_on>
+        <sys_id>e88c399f1bae1510f2b0f7c4464bcb51</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:48</sys_updated_on>
+        <ui_id>8e9c680b-5549-44b9-a129-cf650aa435f6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e88c399f1bae1510f2b0f7c4464bcb51"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e88c399f1bae1510f2b0f7c4464bcb51</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:55:26</sys_created_on>
+        <sys_id>248c399f1bae1510f2b0f7c4464bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:55:26</sys_updated_on>
+        <value>dog_name=N/A﻿</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e88c399f1bae1510f2b0f7c4464bcb51</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:55:26</sys_created_on>
+        <sys_id>e48c399f1bae1510f2b0f7c4464bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:55:26</sys_updated_on>
+        <value>x_snc_sitting_se_0_sit_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e88c399f1bae1510f2b0f7c4464bcb51"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e88c399f1bae1510f2b0f7c4464bcb51</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:55:26</sys_created_on>
+        <sys_id>a08c399f1bae1510f2b0f7c4464bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:55:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e88c399f1bae1510f2b0f7c4464bcb51</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:55:26</sys_created_on>
+        <sys_id>2c8c399f1bae1510f2b0f7c4464bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:55:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e88c399f1bae1510f2b0f7c4464bcb51</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:55:26</sys_created_on>
+        <sys_id>ec8c399f1bae1510f2b0f7c4464bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:55:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e88c399f1bae1510f2b0f7c4464bcb51"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e88c399f1bae1510f2b0f7c4464bcb51"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d8b0d3831b6ed110f2b0f7c4464bcbda"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d8b0d3831b6ed110f2b0f7c4464bcbda^sys_idNOT INa48c399f1bae1510f2b0f7c4464bcb5b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">1f4cb19f1bae1510f2b0f7c4464bcb24</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sitter-direct Request">d8b0d3831b6ed110f2b0f7c4464bcbda</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:55:26</sys_created_on>
+        <sys_id>a48c399f1bae1510f2b0f7c4464bcb5b</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 18:56:48</sys_updated_on>
+        <ui_id>cc73b13e-b035-49d0-86fd-662e0e0e94fe</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a48c399f1bae1510f2b0f7c4464bcb5b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a48c399f1bae1510f2b0f7c4464bcb5b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:55:26</sys_created_on>
+        <sys_id>6c8c399f1bae1510f2b0f7c4464bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:55:26</sys_updated_on>
+        <value>No Dog sitting</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a48c399f1bae1510f2b0f7c4464bcb5b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>a48c399f1bae1510f2b0f7c4464bcb5b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:55:26</sys_created_on>
+        <sys_id>e88c399f1bae1510f2b0f7c4464bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:55:26</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.type_of_service.type}}!=Dog sitting﻿</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>a48c399f1bae1510f2b0f7c4464bcb5b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:55:26</sys_created_on>
+        <sys_id>288c399f1bae1510f2b0f7c4464bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:55:26</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a48c399f1bae1510f2b0f7c4464bcb5b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a48c399f1bae1510f2b0f7c4464bcb5b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d8b0d3831b6ed110f2b0f7c4464bcbda"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d8b0d3831b6ed110f2b0f7c4464bcbda"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d8b0d3831b6ed110f2b0f7c4464bcbda^sys_idNOT IN20b0d3831b6ed110f2b0f7c4464bcbfe,a8b0d3831b6ed110f2b0f7c4464bcbf5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d8b0d3831b6ed110f2b0f7c4464bcbda</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:46</sys_created_on>
+        <sys_id>20b0d3831b6ed110f2b0f7c4464bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:24:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d8b0d3831b6ed110f2b0f7c4464bcbda</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 21:24:46</sys_created_on>
+        <sys_id>a8b0d3831b6ed110f2b0f7c4464bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-19 21:24:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d8b0d3831b6ed110f2b0f7c4464bcbda"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d8b0d3831b6ed110f2b0f7c4464bcbda"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d8b0d3831b6ed110f2b0f7c4464bcbda"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>918c0b0b1b2ed110f2b0f7c4464bcb9d</sys_id>
+        <latest_snapshot>d8b0d3831b6ed110f2b0f7c4464bcbda</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch1a-09-29-2022_10-11-2022_1534.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

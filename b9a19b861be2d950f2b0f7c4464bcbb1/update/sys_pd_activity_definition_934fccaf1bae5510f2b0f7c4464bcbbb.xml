@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type/>
+        <badge/>
+        <category/>
+        <description/>
+        <experience_display_preferences/>
+        <input_display_preferences/>
+        <inputs/>
+        <label>Sitting API Flow</label>
+        <name>sitting_api_flow</name>
+        <outputs/>
+        <source>918c0b0b1b2ed110f2b0f7c4464bcb9d</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 20:37:24</sys_created_on>
+        <sys_id>934fccaf1bae5510f2b0f7c4464bcbbb</sys_id>
+        <sys_name>Sitting API Flow</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_934fccaf1bae5510f2b0f7c4464bcbbb</sys_update_name>
+        <system_level>false</system_level>
+        <table>x_snc_sitting_se_0_sit_request</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=934fccaf1bae5510f2b0f7c4464bcbbb"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_918c0b0b1b2ed110f2b0f7c4464bcb9d^id=934fccaf1bae5510f2b0f7c4464bcbbb"/>
+</record_update>

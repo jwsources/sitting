@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">76fa04e7876a51906198400e8bbb351a</canvas>
+        <component display_value="Calendar Report">259e0221ff18a75c5f5f0fb28fa5d32f</component>
+        <component_props>{"table":"x_snc_sitting_se_0_sit_request","reportSource":"","encodedQuery":"","startDateField":"start_of_service","endDateField":"end_of_service","eventDisplayFields":"sitter_name,type_of_service","componentTitle":"","followFilters":true,"showFilterOverview":true,"showDescription":false,"componentDescription":"","viewType":"MONTH","eventColor":"","filterConfigurations":[]}</component_props>
+        <h>27</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 20:17:54</sys_created_on>
+        <sys_id>72fa04e7876a51906198400e8bbb351c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>par_dashboard_widget_72fa04e7876a51906198400e8bbb351c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 20:17:54</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</application>
+        <file_path/>
+        <instance_id>227680addb82051052dd2f17d4961998</instance_id>
+        <instance_name>demoemployeewf9345</instance_name>
+        <name>par_dashboard_widget_72fa04e7876a51906198400e8bbb351c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">76fa04e7876a51906198400e8bbb351a</canvas><component display_value="Calendar Report">259e0221ff18a75c5f5f0fb28fa5d32f</component><component_props>{"table":"x_snc_sitting_se_0_sit_request","reportSource":"","encodedQuery":"","startDateField":"start_of_service","endDateField":"end_of_service","eventDisplayFields":"sitter_name,type_of_service","componentTitle":"","followFilters":true,"showFilterOverview":true,"showDescription":false,"componentDescription":"","viewType":"MONTH","eventColor":"","filterConfigurations":[]}</component_props><h>27</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-20 20:17:54</sys_created_on><sys_id>72fa04e7876a51906198400e8bbb351c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package><sys_policy/><sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope><sys_update_name>par_dashboard_widget_72fa04e7876a51906198400e8bbb351c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-20 20:17:54</sys_updated_on><visualization/><w>12</w><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1508941740</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b5a19b861be2d950f2b0f7c4464bcbb4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 20:17:54</sys_created_on>
+        <sys_id>7afa04e7876a51906198400e8bbb351d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183f70b94b20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 20:17:54</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>72fa04e7796a5190dd4324539bb1ed1d</update_guid>
+        <update_guid_history>72fa04e7796a5190dd4324539bb1ed1d:1508941740</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3efa04e7876a51906198400e8bbb355b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 20:17:55</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>1fbb9e98b07b4d359364491215a544f1</sys_id>
+        <sys_metadata>72fa04e7876a51906198400e8bbb351c</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_72fa04e7876a51906198400e8bbb351c</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_72fa04e7876a51906198400e8bbb351c">7afa04e7876a51906198400e8bbb351d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

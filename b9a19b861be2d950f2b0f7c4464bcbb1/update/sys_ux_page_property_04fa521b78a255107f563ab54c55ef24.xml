@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Contains references to global search configurations to be consumed by search components</description>
+        <name>global_search_configurations</name>
+        <page display_value="Sitting Service">c4fa521b5aa255109dc51f18a3ad8f26</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 12:08:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>04fa521b78a255107f563ab54c55ef24</sys_id>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_ux_page_property_04fa521b78a255107f563ab54c55ef24</sys_update_name>
+        <type>json</type>
+        <unique_name>x_snc_sitting_se_0.c4fa521b5aa255109dc51f18a3ad8f26.root.global_search_configurations</unique_name>
+        <value>{&#13;
+    "globalSearchViewConfigId": "97a574ea53c0130084acddeeff7b12a6",&#13;
+"globalSearchRoute": "search"&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=04fa521b78a255107f563ab54c55ef24"/>
+</record_update>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Sitting Service Config">84fa521bb4a255101302f7573aa6d226</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Record Information">c0fa521bdaa255107acbf2b50e2bb21f</macroponent>
+        <macroponent_config>{
+  "isOpenFrameConfigValid" : {
+    "type" : "DATA_OUTPUT_BINDING",
+    "binding" : {
+      "address" : [ "validate_openframe_configuration_1", "output", "isOpenframeConfigValid" ]
+    }
+  },
+  "recordSecondaryItems" : {
+    "type" : "DATA_OUTPUT_BINDING",
+    "binding" : {
+      "address" : [ "gform", "nowRecordCommonHeader", "secondaryItems" ]
+    }
+  },
+  "ribbonConfig" : {
+    "type" : "DATA_OUTPUT_BINDING",
+    "binding" : {
+      "address" : [ "gform", "snRecordRibbon" ]
+    }
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "Record Information",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Record Information</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">558adc930f0210107d20409dc4767e84</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Record Information tab">08fa521b6fa25510d0fc5819167afa20</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 12:08:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>84fa521bd2a25510960a40a6dc072d21</sys_id>
+        <sys_name>Record Information</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_ux_screen_84fa521bd2a25510960a40a6dc072d21</sys_update_name>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=84fa521bd2a25510960a40a6dc072d21"/>
+</record_update>

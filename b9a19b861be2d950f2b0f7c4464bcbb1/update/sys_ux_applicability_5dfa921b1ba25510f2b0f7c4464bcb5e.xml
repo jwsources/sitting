@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_snc_sitting_se_0.Audience for appSitting Service</api_name>
+        <description/>
+        <name>Audience for appSitting Service</name>
+        <roles>0aa19b861be2d950f2b0f7c4464bcbb8,cea19b861be2d950f2b0f7c4464bcbed</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 12:08:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5dfa921b1ba25510f2b0f7c4464bcb5e</sys_id>
+        <sys_name>Audience for appSitting Service</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_ux_applicability_5dfa921b1ba25510f2b0f7c4464bcb5e</sys_update_name>
+    </sys_ux_applicability>
+</record_update>

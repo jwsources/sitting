@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 19:45:59</sys_created_on>
+        <sys_id>805d5b4a1b26d950f2b0f7c4464bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_sitting_se_0_sitting_request.x_snc_sitting_se_0.admin</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_security_acl display_value="x_snc_sitting_se_0_sitting_request">4c5d5b4a1b26d950f2b0f7c4464bcb06</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_805d5b4a1b26d950f2b0f7c4464bcb0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-16 19:45:59</sys_updated_on>
+        <sys_user_role display_value="x_snc_sitting_se_0.admin" name="x_snc_sitting_se_0.admin">0aa19b861be2d950f2b0f7c4464bcbb8</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</application>
+        <file_path/>
+        <instance_id>227680addb82051052dd2f17d4961998</instance_id>
+        <instance_name>demoemployeewf9345</instance_name>
+        <name>sys_security_acl_role_805d5b4a1b26d950f2b0f7c4464bcb0a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-16 19:45:59</sys_created_on><sys_id>805d5b4a1b26d950f2b0f7c4464bcb0a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_sitting_se_0_sitting_request.x_snc_sitting_se_0.admin</sys_name><sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package><sys_policy/><sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope><sys_security_acl display_value="x_snc_sitting_se_0_sitting_request">4c5d5b4a1b26d950f2b0f7c4464bcb06</sys_security_acl><sys_update_name>sys_security_acl_role_805d5b4a1b26d950f2b0f7c4464bcb0a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-16 19:45:59</sys_updated_on><sys_user_role display_value="x_snc_sitting_se_0.admin" name="x_snc_sitting_se_0.admin">0aa19b861be2d950f2b0f7c4464bcbb8</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1842984893</payload_hash>
+        <record_name>x_snc_sitting_se_0_sitting_request.x_snc_sitting_se_0.admin</record_name>
+        <reverted_from/>
+        <source>b5a19b861be2d950f2b0f7c4464bcbb4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 19:45:59</sys_created_on>
+        <sys_id>485d5b4a1b26d950f2b0f7c4464bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183e254e9b20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-16 19:45:59</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>405d5b4ab426d950a432a9fb114fa60d</update_guid>
+        <update_guid_history>405d5b4ab426d950a432a9fb114fa60d:-1842984893</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_sitting_se_0_sitting_request.x_snc_sitting_se_0.admin">c9d21e5b1b625510f2b0f7c4464bcb1f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 11:32:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>854006208a2d40a395c0ab70fc8f3381</sys_id>
+        <sys_metadata>805d5b4a1b26d950f2b0f7c4464bcb0a</sys_metadata>
+        <sys_name>x_snc_sitting_se_0_sitting_request.x_snc_sitting_se_0.admin</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_parent display_value="">4c5d5b4a1b26d950f2b0f7c4464bcb06</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_805d5b4a1b26d950f2b0f7c4464bcb0a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_805d5b4a1b26d950f2b0f7c4464bcb0a">485d5b4a1b26d950f2b0f7c4464bcb0d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

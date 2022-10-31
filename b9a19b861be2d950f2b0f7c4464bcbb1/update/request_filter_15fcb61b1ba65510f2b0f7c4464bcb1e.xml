@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="request_filter">
+    <request_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_to>10</applies_to>
+        <data_item/>
+        <filter/>
+        <group/>
+        <item_stream/>
+        <last_used/>
+        <mobile>false</mobile>
+        <portal_page display_value="hri_task_details">0dc0f3219fe312009205f7f8677fcf43</portal_page>
+        <primary_display>universal_request</primary_display>
+        <roles/>
+        <secondary_display>type_of_service.type,start_of_service,external_state.state</secondary_display>
+        <short_description/>
+        <sys_class_name>request_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 15:23:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>15fcb61b1ba65510f2b0f7c4464bcb1e</sys_id>
+        <sys_name>Sitting request</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>request_filter_15fcb61b1ba65510f2b0f7c4464bcb1e</sys_update_name>
+        <table>x_snc_sitting_se_0_sit_request</table>
+        <table_name/>
+        <title>Sitting request</title>
+        <user/>
+    </request_filter>
+    <sys_translated_text action="delete_multiple" query="documentkey=15fcb61b1ba65510f2b0f7c4464bcb1e"/>
+</record_update>

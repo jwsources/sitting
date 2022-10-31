@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">04fa521b58a25510f07c8d28bc33c51f</canvas>
+        <component display_value="">7219cee4e0177c3cf2e48d550ce0f71b</component>
+        <component_props>{"listTitle":null,"table":"x_snc_sitting_se_0_sit_request","query":"active=true","columns":"","groupByField":"","limit":3,"maxColumns":7,"page":1,"highlightedValueConfigId":"","hideHighlightedValues":false,"hideHeader":true,"hideTitle":false,"hideTitleRowCount":false,"hideRefreshButton":true,"hideLastRefreshedText":false,"hideColumnResizing":true,"hideColumnGrouping":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hidePersonalization":true,"hideColumnReorder":true,"hideDotwalk":true,"hideInlineEditing":false,"hideHighlightContent":false,"highlightContent":"{ \"patterns\": [], \"color\" : \"\" }","hideLinks":false,"hideViewAll":false,"hideCellFilter":true,"hideCheckboxHover":true,"hideFilterPanel":false,"hideFirstPage":false,"hideLastPage":false,"hideLimitSelector":false,"hideMenuButton":true,"hideMultiEdit":false,"hideDeclarativeActions":false,"hideNextPage":false,"hidePages":false,"hidePagination":true,"hidePanel":true,"hidePanelAdvanced":false,"hidePanelConditionDelete":false,"hidePanelFooter":false,"hidePanelRestore":false,"hidePreviousPage":false,"hideQuickEdit":true,"hideRange":false,"hideRowCount":false,"hideRowSelector":false,"hideSelectAll":true,"hideEmptyStateImage":false,"hideDBViews":false,"hideUnnecessaryRowSelectors":true,"overrideWordWrapUserPref":false,"wordWrap":false,"maxCharLimit":4000,"refreshRequested":"","recordSelectedTable":"","recordSelectedSysId":"","recordSelectedQuery":"","recordSelectedView":"","headerTitle":"Sitting sessions by Sitter","showSparkline":null,"dataPassthrough":null,"bareBorder":false,"sortBy":null,"sortByOrder":null,"showConfidenceBand":false,"showComment":false,"showTrend":false,"showTarget":false,"showThreshold":false,"showForecastRange":false,"showChange":null,"showChangePercentage":null,"showGapPercentage":null,"showTotalValue":null,"showMetricLabel":null,"enableRealTimeUpdate":null,"showChangeFrom":null,"refreshFrequency":false,"label":"Upcoming Sitting sessions"}</component_props>
+        <h>10</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 12:08:25</sys_created_on>
+        <sys_id>84fa521b25a25510679569e11fd8fe20</sys_id>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>par_dashboard_widget_84fa521b25a25510679569e11fd8fe20</sys_update_name>
+        <visualization/>
+        <w>12</w>
+        <x>0</x>
+        <y>23</y>
+    </par_dashboard_widget>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <data_source/>
+        <description/>
+        <macroponent display_value="Single score">d24d53f60350de7a652caf3188a46ed2</macroponent>
+        <name>Number of new requests</name>
+        <properties>{"filterConfigurations":"@state.parFilters","scoreSize":"md","headingPosition":null,"sparklineStyle":"area","showScoreDate":true,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"showHeader":false,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"sortBy":"value","sortByOrder":"desc","showChange":true,"showChangePercentage":true,"showTarget":true,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":true,"showSparkline":true,"showMetricLabel":true,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":true,"period":"M","dateFormat":"default","configVersion":"22.1.7","groupBy":null,"trendBy":null,"colorConfig":{"type":"default"},"dataSources":[{"allowRealTime":true,"allowTotalValue":true,"indicatorType":"1","isScriptedIndicator":false,"label":"Number of new sit requests","sourceType":"indicator","uuid":{"indicator":"a67ebd9382ee1510d26eb8281b767e01","breakdowns":[]},"id":"aW5kaWNhdG9yYTY3ZWJkOTM4MmVlMTUxMGQyNmViODI4MWI3NjdlMDExNjY2NTUyNzk5MjM3","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"aW5kaWNhdG9yYTY3ZWJkOTM4MmVlMTUxMGQyNmViODI4MWI3NjdlMDExNjY2NTUyNzk5MjM3","id":"YVc1a2FXTmhkRzl5WVRZM1pXSmtPVE00TW1WbE1UVXhNR1F5Tm1WaU9ESTRNV0kzTmpkbE1ERXhOalkyTlRVeU56azVNak0zMTY2NjU1Mjc5OTc0NQ==","aggregateIndicator":"","frequency":10,"numberFormat":{"customFormat":false},"axisId":"primary"}],"headerTitle":"Number of new requests"}</properties>
+        <requested_by/>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-23 19:20:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3d9a13501bf21d10f2b0f7c4464bcbf5</sys_id>
+        <sys_name>Number of new requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>par_visualization_3d9a13501bf21d10f2b0f7c4464bcbf5</sys_update_name>
+        <title/>
+        <type>Single score</type>
+    </par_visualization>
+</record_update>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="default_stop_word_dictionary">9865058bc7031010d1cfd9795cc26037</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="Sitting Services Overview Search Profile">8d5a2f42cca6d95020280523330cd17c</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:42:52</sys_created_on>
+        <sys_id>cd5a2f42ffa6d9501375ce121f2f487c</sys_id>
+        <sys_name>default_stop_word_dictionary.Sitting Services Overview Search Profile</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_cd5a2f42ffa6d9501375ce121f2f487c</sys_update_name>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

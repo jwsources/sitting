@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b99d538a1b26d950f2b0f7c4464bcb48" label="Sitting services" max_length="40" name="x_snc_sitting_se_0_sitting_services" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Type" max_length="40" name="type" type="string"/>
+    </element>
+</database>

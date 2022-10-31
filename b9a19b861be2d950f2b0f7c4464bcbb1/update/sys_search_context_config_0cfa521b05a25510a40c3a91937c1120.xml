@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <evam_definition/>
+        <genius_results_limit/>
+        <hit_highlighting>false</hit_highlighting>
+        <name>Sitting Service - Workspace Search</name>
+        <search_engine>zing</search_engine>
+        <search_profile/>
+        <search_results_limit>10</search_results_limit>
+        <spell_check>false</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 12:08:24</sys_created_on>
+        <sys_id>0cfa521b05a25510a40c3a91937c1120</sys_id>
+        <sys_name>Sitting Service - Workspace Search</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_search_context_config_0cfa521b05a25510a40c3a91937c1120</sys_update_name>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=0cfa521b05a25510a40c3a91937c1120"/>
+</record_update>
