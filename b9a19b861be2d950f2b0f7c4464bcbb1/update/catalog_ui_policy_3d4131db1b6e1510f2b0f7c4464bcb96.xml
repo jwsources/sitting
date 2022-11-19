@@ -29,12 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3d4131db1b6e1510f2b0f7c4464bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Make 'dog_name' non-mandatory &amp; hidden depending on 'type_of_service'</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
         <sys_update_name>catalog_ui_policy_3d4131db1b6e1510f2b0f7c4464bcb96</sys_update_name>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <variable_set/>

@@ -11,7 +11,7 @@
         <copied_from/>
         <copied_from_name/>
         <description>Integration with the Business API from Sitters-direct</description>
-        <ih_action>true</ih_action>
+        <ih_action>false</ih_action>
         <internal_name>sitting_api</internal_name>
         <label_cache>[{"name":"{{action.name}}","label":"action➛name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.address}}","label":"action➛address","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.postal_code}}","label":"action➛postal code","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.city}}","label":"action➛city","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.phone_number}}","label":"action➛phone_number","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.email_address}}","label":"action➛email_address","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sitting_type}}","label":"action➛sitting_type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.start}}","label":"action➛Start","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.email_address6}}","label":"action➛email address","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.phone_number5}}","label":"action➛phone number","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sitting_type7}}","label":"action➛sitting type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.start_date}}","label":"action➛start date","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.end_date}}","label":"action➛end date","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[edfbec1a-dd3b-473e-9fb6-17c7ecfc950b].root.sitter}}","label":"step➛JSON Parser step➛root➛sitter","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[edfbec1a-dd3b-473e-9fb6-17c7ecfc950b].root.message}}","label":"step➛JSON Parser step➛root➛message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[edfbec1a-dd3b-473e-9fb6-17c7ecfc950b].root.root_child12}}","label":"step➛JSON Parser step➛root➛root_child12","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[edfbec1a-dd3b-473e-9fb6-17c7ecfc950b].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FD50451b0e79e2d95098b3d37a5ee31a93","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"caefe3e4-aa2e-497a-b2b5-892a0253ff9a"}},{"name":"{{step[25b0e1dd-7498-4809-ac7c-d63c22195f06].response_body}}","label":"step➛REST for Sitter➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[25b0e1dd-7498-4809-ac7c-d63c22195f06].error_code}}","label":"step➛REST for Sitter➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[25b0e1dd-7498-4809-ac7c-d63c22195f06].status_code}}","label":"step➛REST for Sitter➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
         <master_snapshot>4320ef8e1b26d950f2b0f7c4464bcbf0</master_snapshot>
@@ -20,19 +20,22 @@
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-16 18:56:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>76e11b861be2d950f2b0f7c4464bcb03</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Sitting API</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_76e11b861be2d950f2b0f7c4464bcb03</sys_update_name>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-11-18 14:06:48</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -60,10 +63,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-16 19:05:53</sys_created_on>
         <sys_id>f0245b8a1be2d950f2b0f7c4464bcb98</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>Jules.weijters</sys_updated_by>
-        <sys_updated_on>2022-10-31 10:42:36</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-11-18 14:06:48</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">b4245b8a1be2d950f2b0f7c4464bcb8a</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=76e11b861be2d950f2b0f7c4464bcb03"/>
@@ -1665,14 +1668,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-22 19:08:53</sys_created_on>
         <sys_id>9b5e02001b329910f2b0f7c4464bcb9e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Jules.weijters</sys_updated_by>
-        <sys_updated_on>2022-10-31 10:42:36</sys_updated_on>
+        <sys_updated_on>2022-11-18 14:06:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

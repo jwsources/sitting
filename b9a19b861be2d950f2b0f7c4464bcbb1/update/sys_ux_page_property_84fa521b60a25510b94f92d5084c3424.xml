@@ -28,11 +28,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>84fa521b60a25510b94f92d5084c3424</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>chrome_tab</sys_name>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
         <sys_update_name>sys_ux_page_property_84fa521b60a25510b94f92d5084c3424</sys_update_name>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
         <type>json</type>
         <unique_name>x_snc_sitting_se_0.c4fa521b5aa255109dc51f18a3ad8f26.root.chrome_tab</unique_name>
         <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Interaction"},"routeInfo":{"route":"record","fields":{"table":"interaction","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"interaction","canCreate":true}}},{"label":{"translatable":true,"message":"New Incident"},"routeInfo":{"route":"record","fields":{"table":"incident","sysId":"-1"},"multiInstField":"sysId"}},{"label":{"translatable":true,"message":"New Sit request"},"routeInfo":{"route":"record","fields":{"table":"x_snc_sitting_se_0_sit_request","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_sitting_se_0_sit_request","canCreate":true}}},{"label":{"translatable":true,"message":"New Sitting services"},"routeInfo":{"route":"record","fields":{"table":"x_snc_sitting_se_0_sitting_services","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_sitting_se_0_sitting_services","canCreate":true}}},{"label":{"translatable":true,"message":"New Sitting Task"},"routeInfo":{"route":"record","fields":{"table":"x_snc_sitting_se_0_sitting_task","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_sitting_se_0_sitting_task","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>

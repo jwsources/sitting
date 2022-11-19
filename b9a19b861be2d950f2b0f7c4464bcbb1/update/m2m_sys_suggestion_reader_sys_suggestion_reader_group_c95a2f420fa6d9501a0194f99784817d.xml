@@ -7,6 +7,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-16 20:42:52</sys_created_on>
         <sys_id>c95a2f420fa6d9501a0194f99784817d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_policy/>
@@ -14,5 +15,7 @@
         <sys_suggestion_reader_group_id display_value="Search-based Suggested Results Reader Group for Starter Workspace - Workspace Search">055a2f4205a6d9506ced060aae900e7a</sys_suggestion_reader_group_id>
         <sys_suggestion_reader_id display_value="Search Based Suggestion Reader">c41365e077020110be280d892c5a99f2</sys_suggestion_reader_id>
         <sys_update_name>m2m_sys_suggestion_reader_sys_suggestion_reader_group_c95a2f420fa6d9501a0194f99784817d</sys_update_name>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
     </m2m_sys_suggestion_reader_sys_suggestion_reader_group>
 </record_update>

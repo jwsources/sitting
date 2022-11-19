@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">04fa521b58a25510f07c8d28bc33c51f</canvas>
+        <component display_value="">6083add31d71827a26ceadfcc4e31550</component>
+        <component_props>{"alt":"","src":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.JvpELRYg5ajgVh7or_zXJwHaBA%26pid%3DApi&amp;f=1&amp;ipt=3318bcf6ca9d8b439179fc3922dc9cc6a42dc8d150fe5b3edbc4d204c126303e&amp;ipo=images","fit":"contain","position":"center center"}</component_props>
+        <h>4</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>Jules.weijters</sys_created_by>
+        <sys_created_on>2022-11-06 20:28:17</sys_created_on>
+        <sys_id>f46037b00bc79510f2b0681b14f8df50</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>par_dashboard_widget_f46037b00bc79510f2b0681b14f8df50</sys_update_name>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-11-06 20:34:36</sys_updated_on>
+        <visualization/>
+        <w>8</w>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

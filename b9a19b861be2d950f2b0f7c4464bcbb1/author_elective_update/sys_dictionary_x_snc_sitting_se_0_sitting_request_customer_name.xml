@@ -100,6 +100,7 @@
         <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
         <sys_id>06abedb845b744b4a888aa005e994d90</sys_id>
         <sys_metadata>434dd74a1b26d950f2b0f7c4464bcba5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Customer name</sys_name>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_parent display_value="">324dd74a1b26d950f2b0f7c4464bcb61</sys_parent>
@@ -108,5 +109,7 @@
         <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
         <sys_update_name>sys_dictionary_x_snc_sitting_se_0_sitting_request_customer_name</sys_update_name>
         <sys_update_version display_value="sys_dictionary_x_snc_sitting_se_0_sitting_request_customer_name">534dd74a1b26d950f2b0f7c4464bcbfa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 11:33:03</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

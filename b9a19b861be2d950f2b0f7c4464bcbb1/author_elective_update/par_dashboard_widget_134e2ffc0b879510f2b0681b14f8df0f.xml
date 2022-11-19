@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">04fa521b58a25510f07c8d28bc33c51f</canvas>
+        <component display_value="">6083add31d71827a26ceadfcc4e31550</component>
+        <component_props>{"alt":"","src":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.JvpELRYg5ajgVh7or_zXJwHaBA%26pid%3DApi&amp;f=1&amp;ipt=3318bcf6ca9d8b439179fc3922dc9cc6a42dc8d150fe5b3edbc4d204c126303e&amp;ipo=images","fit":"contain","position":"center center"}</component_props>
+        <h>5</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>Jules.weijters</sys_created_by>
+        <sys_created_on>2022-11-06 20:19:11</sys_created_on>
+        <sys_id>134e2ffc0b879510f2b0681b14f8df0f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>par_dashboard_widget_134e2ffc0b879510f2b0681b14f8df0f</sys_update_name>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-11-06 20:26:03</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</application>
+        <file_path/>
+        <instance_id>227680addb82051052dd2f17d4961998</instance_id>
+        <instance_name>demoemployeewf9345</instance_name>
+        <name>par_dashboard_widget_134e2ffc0b879510f2b0681b14f8df0f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">04fa521b58a25510f07c8d28bc33c51f</canvas><component display_value="">6083add31d71827a26ceadfcc4e31550</component><component_props>{"alt":"","src":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.JvpELRYg5ajgVh7or_zXJwHaBA%26pid%3DApi&amp;f=1&amp;ipt=3318bcf6ca9d8b439179fc3922dc9cc6a42dc8d150fe5b3edbc4d204c126303e&amp;ipo=images","fit":"contain","position":"center center"}</component_props><h>5</h><name/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>Jules.weijters</sys_created_by><sys_created_on>2022-11-06 20:19:11</sys_created_on><sys_id>134e2ffc0b879510f2b0681b14f8df0f</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package><sys_policy/><sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope><sys_update_name>par_dashboard_widget_134e2ffc0b879510f2b0681b14f8df0f</sys_update_name><sys_updated_by>Jules.weijters</sys_updated_by><sys_updated_on>2022-11-06 20:26:03</sys_updated_on><visualization/><w>12</w><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-165309119</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d7d2d3760bf2dd10f2b0681b14f8df16</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Jules.weijters</sys_created_by>
+        <sys_created_on>2022-11-06 20:26:03</sys_created_on>
+        <sys_id>ccef27b00bc79510f2b0681b14f8df19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1844e9f25510000001</sys_recorded_at>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-11-06 20:26:03</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>44ef27b08dc7951069966c01b5abff19</update_guid>
+        <update_guid_history>44ef27b08dc7951069966c01b5abff19:-165309119,912fa370e7c79510d276a687336e4380:-1651330810,9b4e2ffc3c879510f9ace1f6ac8db210:-2106556687</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">f460b3f00bc79510f2b0681b14f8df27</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Jules.weijters</sys_created_by>
+        <sys_created_on>2022-11-06 20:28:18</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>455f79e62bb0469d9d63bb1a3f88da71</sys_id>
+        <sys_metadata>134e2ffc0b879510f2b0681b14f8df0f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_134e2ffc0b879510f2b0681b14f8df0f</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_134e2ffc0b879510f2b0681b14f8df0f">ccef27b00bc79510f2b0681b14f8df19</sys_update_version>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-11-06 20:28:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -50,6 +50,7 @@
         <sys_db_object display_value="" name="par_dashboard_tab">par_dashboard_tab</sys_db_object>
         <sys_id>04853bf136c74a848048237b96ed80a4</sys_id>
         <sys_metadata>befa04e7876a51906198400e8bbb351d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Analytics</sys_name>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_parent/>
@@ -58,5 +59,7 @@
         <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
         <sys_update_name>par_dashboard_tab_befa04e7876a51906198400e8bbb351d</sys_update_name>
         <sys_update_version display_value="par_dashboard_tab_befa04e7876a51906198400e8bbb351d">76fa04e7876a51906198400e8bbb351f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 20:18:49</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

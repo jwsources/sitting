@@ -67,6 +67,7 @@
         <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
         <sys_id>3cdb049d259b46f885f15b38c8faf440</sys_id>
         <sys_metadata>324dd74a1b26d950f2b0f7c4464bcb61</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Sitreq</sys_name>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_parent/>
@@ -75,5 +76,7 @@
         <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
         <sys_update_name>sys_db_object_324dd74a1b26d950f2b0f7c4464bcb61</sys_update_name>
         <sys_update_version display_value="sys_db_object_324dd74a1b26d950f2b0f7c4464bcb61">c3dc79be1baa5110f2b0f7c4464bcb67</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 11:32:56</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

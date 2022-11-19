@@ -48,6 +48,7 @@
         <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
         <sys_id>0104224d47d14eb696cecbdebd138479</sys_id>
         <sys_metadata>b515270a1b66d950f2b0f7c4464bcb1b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Reservations.Sitting Request</sys_name>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_parent/>
@@ -56,5 +57,7 @@
         <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
         <sys_update_name>sc_cat_item_category_b515270a1b66d950f2b0f7c4464bcb1b</sys_update_name>
         <sys_update_version display_value="sc_cat_item_category_b515270a1b66d950f2b0f7c4464bcb1b">b915270a1b66d950f2b0f7c4464bcb1f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-16 20:21:48</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

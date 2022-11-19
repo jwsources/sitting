@@ -48,6 +48,7 @@
         <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
         <sys_id>489efd88ebec4178a1edc3d01c5bc640</sys_id>
         <sys_metadata>2a6923021ba6d950f2b0f7c4464bcb18</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Workplace Services Catalog.Sitting Request</sys_name>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_parent display_value="Sitting Request">667463c61b66d950f2b0f7c4464bcb4b</sys_parent>
@@ -56,5 +57,7 @@
         <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
         <sys_update_name>sc_cat_item_catalog_2a6923021ba6d950f2b0f7c4464bcb18</sys_update_name>
         <sys_update_version display_value="sc_cat_item_catalog_2a6923021ba6d950f2b0f7c4464bcb18">5a92755f1b6e1510f2b0f7c4464bcbd9</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-20 09:12:09</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

@@ -55,6 +55,7 @@
         <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
         <sys_id>4f0f16e4052b4280ab134617ceb6f100</sys_id>
         <sys_metadata>285a13501bf21d10f2b0f7c4464bcb82</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Seven Day running AVG</sys_name>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_parent/>
@@ -63,5 +64,7 @@
         <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
         <sys_update_name>par_dashboard_widget_285a13501bf21d10f2b0f7c4464bcb82</sys_update_name>
         <sys_update_version display_value="par_dashboard_widget_285a13501bf21d10f2b0f7c4464bcb82">e45a13501bf21d10f2b0f7c4464bcb84</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-23 19:21:41</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

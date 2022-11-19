@@ -463,6 +463,7 @@
         <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
         <sys_id>06ccd94966a34a908077728afde4c349</sys_id>
         <sys_metadata>495a2f4221a6d950de51a81d9aeedd7f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>chrome_header</sys_name>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_parent/>
@@ -471,5 +472,7 @@
         <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
         <sys_update_name>sys_ux_page_property_495a2f4221a6d950de51a81d9aeedd7f</sys_update_name>
         <sys_update_version display_value="sys_ux_page_property_495a2f4221a6d950de51a81d9aeedd7f">1e5aaf421ba6d950f2b0f7c4464bcb52</sys_update_version>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-10-31 13:14:38</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

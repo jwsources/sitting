@@ -13,11 +13,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>c4fa521bf4a25510987b40739b718f24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>chrome_main</sys_name>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
         <sys_update_name>sys_ux_page_property_c4fa521bf4a25510987b40739b718f24</sys_update_name>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
         <type>json</type>
         <unique_name>x_snc_sitting_se_0.c4fa521b5aa255109dc51f18a3ad8f26.root.chrome_main</unique_name>
         <value>{&#13;
