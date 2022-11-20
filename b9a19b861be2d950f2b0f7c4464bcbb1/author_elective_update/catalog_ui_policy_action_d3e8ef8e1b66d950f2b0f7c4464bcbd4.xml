@@ -51,7 +51,7 @@
         <update_guid_history>13e8ef8efc66d950e3869d6db3ed95d7:-1853323226</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="dog_name">de92755f1b6e1510f2b0f7c4464bcb86</sys_audit_delete>
+        <sys_audit_delete display_value="">de92755f1b6e1510f2b0f7c4464bcb86</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-10-20 09:12:08</sys_created_on>

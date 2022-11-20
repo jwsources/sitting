@@ -41,7 +41,7 @@
         <update_guid_history>a292755f156e1510d715a71ae73814e2:-170795714,e2692302f2a6d95055e6e85ea01e573f:-1082484430</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Reservations.Sitting Request">6692755f1b6e1510f2b0f7c4464bcbe8</sys_audit_delete>
+        <sys_audit_delete display_value="">6692755f1b6e1510f2b0f7c4464bcbe8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-10-20 09:12:09</sys_created_on>

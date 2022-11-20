@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Sitting Request">667463c61b66d950f2b0f7c4464bcb4b</sc_cat_item>
-        <sc_catalog display_value="Workplace Services Catalog">19dbe710c37310109f6de5f87d40dd48</sc_catalog>
+        <sc_catalog display_value="">19dbe710c37310109f6de5f87d40dd48</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-20 09:06:22</sys_created_on>

@@ -69,7 +69,7 @@
         <update_guid_history>23c82f8e2466d95039841a8cb444392b:-1642593220,abc82f8ec566d950c004140049dc741d:-776664288</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'dog_name' mandatory &amp; visible depending on 'type_of_service'">9692755f1b6e1510f2b0f7c4464bcb65</sys_audit_delete>
+        <sys_audit_delete display_value="">9692755f1b6e1510f2b0f7c4464bcb65</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-10-20 09:12:08</sys_created_on>

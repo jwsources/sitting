@@ -36,8 +36,8 @@
         <sys_policy/>
         <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
         <sys_update_name>sys_hub_flow_918c0b0b1b2ed110f2b0f7c4464bcb9d</sys_update_name>
-        <sys_updated_by>Jules.weijters</sys_updated_by>
-        <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-20 14:19:42</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=918c0b0b1b2ed110f2b0f7c4464bcb9d"/>
@@ -654,11 +654,11 @@
         <sys_created_on>2022-10-19 21:06:32</sys_created_on>
         <sys_id>118c0b0b1b2ed110f2b0f7c4464bcbae</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_918c0b0b1b2ed110f2b0f7c4464bcb9d_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-19 21:06:32</sys_updated_on>
         <url/>
@@ -677,11 +677,11 @@
         <sys_created_on>2022-10-19 21:06:32</sys_created_on>
         <sys_id>d58c0b0b1b2ed110f2b0f7c4464bcbb1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_918c0b0b1b2ed110f2b0f7c4464bcb9d_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-19 21:06:32</sys_updated_on>
         <url/>
@@ -1322,11 +1322,11 @@
         <sys_created_on>2022-10-19 21:24:46</sys_created_on>
         <sys_id>20b0d3831b6ed110f2b0f7c4464bcbfe</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d8b0d3831b6ed110f2b0f7c4464bcbda_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-19 21:24:46</sys_updated_on>
         <url/>
@@ -1345,11 +1345,11 @@
         <sys_created_on>2022-10-19 21:24:46</sys_created_on>
         <sys_id>a8b0d3831b6ed110f2b0f7c4464bcbf5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d8b0d3831b6ed110f2b0f7c4464bcbda_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-19 21:24:46</sys_updated_on>
         <url/>

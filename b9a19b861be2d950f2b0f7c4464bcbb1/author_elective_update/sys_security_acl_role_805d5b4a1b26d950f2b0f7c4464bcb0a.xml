@@ -42,7 +42,7 @@
         <update_guid_history>405d5b4ab426d950a432a9fb114fa60d:-1842984893</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_snc_sitting_se_0_sitting_request.x_snc_sitting_se_0.admin">c9d21e5b1b625510f2b0f7c4464bcb1f</sys_audit_delete>
+        <sys_audit_delete display_value="">c9d21e5b1b625510f2b0f7c4464bcb1f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-20 11:32:57</sys_created_on>

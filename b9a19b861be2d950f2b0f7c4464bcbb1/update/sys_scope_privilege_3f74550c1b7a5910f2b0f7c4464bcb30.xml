@@ -16,7 +16,7 @@
         <sys_updated_by>Jules.weijters</sys_updated_by>
         <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
         <target_name>universal_request</target_name>
-        <target_scope display_value="Universal Request">c1ddba4773b10010cbb654eb7df6a76b</target_scope>
+        <target_scope display_value="">c1ddba4773b10010cbb654eb7df6a76b</target_scope>
         <target_type>sys_db_object</target_type>
     </sys_scope_privilege>
 </record_update>

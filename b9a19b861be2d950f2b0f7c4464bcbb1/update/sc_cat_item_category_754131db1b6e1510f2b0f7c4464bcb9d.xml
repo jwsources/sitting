@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Sitting Request">667463c61b66d950f2b0f7c4464bcb4b</sc_cat_item>
-        <sc_category display_value="Reservations">3d5d71fc533310103d40ddeeff7b1223</sc_category>
+        <sc_category display_value="">3d5d71fc533310103d40ddeeff7b1223</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-20 09:06:22</sys_created_on>

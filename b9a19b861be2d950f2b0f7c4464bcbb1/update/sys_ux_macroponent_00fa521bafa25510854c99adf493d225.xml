@@ -132,4 +132,5 @@
         <sys_updated_by>Jules.weijters</sys_updated_by>
         <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=00fa521bafa25510854c99adf493d225"/>
 </record_update>

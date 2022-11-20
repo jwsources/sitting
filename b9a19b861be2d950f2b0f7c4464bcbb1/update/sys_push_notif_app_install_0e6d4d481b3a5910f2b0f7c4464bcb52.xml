@@ -16,7 +16,7 @@
         <sys_update_name>sys_push_notif_app_install_0e6d4d481b3a5910f2b0f7c4464bcb52</sys_update_name>
         <sys_updated_by>Jules.weijters</sys_updated_by>
         <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
-        <sys_user_id display_value="Jules Weijters">6816f79cc0a8016401c5a33be04be441</sys_user_id>
+        <sys_user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user_id>
         <token>91811AE42A873AAD8861D456B724950D793D2563DF7E6A49E3B515EC92D34790</token>
     </sys_push_notif_app_install>
 </record_update>

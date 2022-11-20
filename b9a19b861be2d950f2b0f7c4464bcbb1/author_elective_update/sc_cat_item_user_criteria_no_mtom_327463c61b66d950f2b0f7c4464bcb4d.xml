@@ -29,19 +29,19 @@
         <source>32608e231b021110f2b0f7c4464bcb2b</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-26 08:19:36</sys_created_on>
         <sys_id>6292755f1b6e1510f2b0f7c4464bcbef</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>18378e151c00000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-20 14:20:25</sys_updated_on>
         <type>Catalog Item Not Available for</type>
         <update_guid>2292755ff36e1510bbe40fa7cb5695ef</update_guid>
         <update_guid_history>2292755ff36e1510bbe40fa7cb5695ef:-1904805649</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Sitting Request.SNC External">ee92755f1b6e1510f2b0f7c4464bcbff</sys_audit_delete>
+        <sys_audit_delete display_value="">ee92755f1b6e1510f2b0f7c4464bcbff</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-10-20 09:12:09</sys_created_on>

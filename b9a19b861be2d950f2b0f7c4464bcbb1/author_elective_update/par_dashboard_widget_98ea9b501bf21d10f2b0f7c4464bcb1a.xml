@@ -48,7 +48,7 @@
         <update_guid_history>d0ea9b507df21d10592a255c87d0111c:1291769220</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Number of new requests">087b5f901bf21d10f2b0f7c4464bcb53</sys_audit_delete>
+        <sys_audit_delete display_value="">087b5f901bf21d10f2b0f7c4464bcb53</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-23 19:24:06</sys_created_on>

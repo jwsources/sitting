@@ -41,7 +41,7 @@
         <update_guid_history>0206af4aa666d9500cb4b0d6f1cc1f6e:465937440</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Workplace Services Catalog.Sitting Request">2d97a70e1b66d950f2b0f7c4464bcbd8</sys_audit_delete>
+        <sys_audit_delete display_value="">2d97a70e1b66d950f2b0f7c4464bcbd8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-16 20:30:51</sys_created_on>

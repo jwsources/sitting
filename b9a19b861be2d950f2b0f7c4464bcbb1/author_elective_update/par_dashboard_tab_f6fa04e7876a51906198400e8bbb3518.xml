@@ -43,7 +43,7 @@
         <update_guid_history>3afa04e71e6a5190ec583d3482443e19:-842617304</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Sitting Calendar">d03b48e7876a51906198400e8bbb35f3</sys_audit_delete>
+        <sys_audit_delete display_value="">d03b48e7876a51906198400e8bbb35f3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-20 20:18:49</sys_created_on>

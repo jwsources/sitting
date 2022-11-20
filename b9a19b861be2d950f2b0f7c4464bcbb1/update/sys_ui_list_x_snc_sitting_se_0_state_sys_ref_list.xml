@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_snc_sitting_se_0_state" element="NULL" name="x_snc_sitting_se_0_state" parent="NULL" relationship="NULL" sys_domain="global" view="556ec061970201107e16fe7fe153af0b">6b621a841b329910f2b0f7c4464bcb44</list_id>
+            <list_id display_value="x_snc_sitting_se_0_state" element="NULL" name="x_snc_sitting_se_0_state" parent="NULL" relationship="NULL" sys_domain="global" view="3c55f241871311103fbe202c8bbb3528">6b621a841b329910f2b0f7c4464bcb44</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>Jules.weijters</sys_updated_by>
             <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">556ec061970201107e16fe7fe153af0b</view>
+            <view display_value="Reference List" name="sys_ref_list">3c55f241871311103fbe202c8bbb3528</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

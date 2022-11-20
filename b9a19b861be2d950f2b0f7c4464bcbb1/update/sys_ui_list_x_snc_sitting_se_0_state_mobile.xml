@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_sitting_se_0_state" version="2" view="mobile">
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_sitting_se_0_state" version="2" view="Mobile">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_snc_sitting_se_0_state" element="NULL" name="x_snc_sitting_se_0_state" parent="NULL" relationship="NULL" sys_domain="global" view="356ec061970201107e16fe7fe153aff3">ffc32f461b66d950f2b0f7c4464bcb5f</list_id>
+            <list_id display_value="x_snc_sitting_se_0_state" element="NULL" name="x_snc_sitting_se_0_state" parent="NULL" relationship="NULL" sys_domain="global" view="55553641871311103fbe202c8bbb351d">ffc32f461b66d950f2b0f7c4464bcb5f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_snc_sitting_se_0_state" element="NULL" name="x_snc_sitting_se_0_state" parent="NULL" relationship="NULL" sys_domain="global" view="356ec061970201107e16fe7fe153aff3">ffc32f461b66d950f2b0f7c4464bcb5f</list_id>
+            <list_id display_value="x_snc_sitting_se_0_state" element="NULL" name="x_snc_sitting_se_0_state" parent="NULL" relationship="NULL" sys_domain="global" view="55553641871311103fbe202c8bbb351d">ffc32f461b66d950f2b0f7c4464bcb5f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -55,7 +55,7 @@
             <sys_updated_by>Jules.weijters</sys_updated_by>
             <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
             <sys_user/>
-            <view display_value="Mobile" name="mobile">356ec061970201107e16fe7fe153aff3</view>
+            <view display_value="Mobile" name="Mobile">55553641871311103fbe202c8bbb351d</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

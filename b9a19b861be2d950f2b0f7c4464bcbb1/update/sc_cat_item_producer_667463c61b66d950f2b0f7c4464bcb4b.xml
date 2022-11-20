@@ -2,15 +2,13 @@
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
         <active>true</active>
-        <additional_review>false</additional_review>
         <allow_edit>false</allow_edit>
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Reservations">3d5d71fc533310103d40ddeeff7b1223</category>
+        <category display_value="">3d5d71fc533310103d40ddeeff7b1223</category>
         <checked_out>false</checked_out>
         <cost>0</cost>
-        <create_universal_request>true</create_universal_request>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
@@ -47,7 +45,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Jules Weijters">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture>464131db1b6e1510f2b0f7c4464bcbaf</picture>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 
