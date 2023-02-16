@@ -59,6 +59,7 @@
         <sys_class_name>sys_hub_flow_variable</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-22 21:06:51</sys_created_on>
+        <sys_id>8b59e6041bf29910f2b0f7c4464bcb76</sys_id>
         <sys_name>Participant Object</sys_name>
         <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
         <sys_policy/>

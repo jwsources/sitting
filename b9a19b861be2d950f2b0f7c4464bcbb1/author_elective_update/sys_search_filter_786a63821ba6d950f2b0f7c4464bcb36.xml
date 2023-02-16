@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="DELETE">
+        <active>true</active>
+        <ais_search_source display_value="Sitting request">b46a63821ba6d950f2b0f7c4464bcb03</ais_search_source>
+        <label>Sitting request</label>
+        <name>Sitting request</name>
+        <order>100</order>
+        <search_context_config display_value="Sitting Services Overview AI Search Configuration">c55a2f422ea6d950d24318ddabe6d37c</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:43:06</sys_created_on>
+        <sys_id>786a63821ba6d950f2b0f7c4464bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sitting request</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_search_filter_786a63821ba6d950f2b0f7c4464bcb36</sys_update_name>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
+    </sys_search_filter>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</application>
+        <file_path/>
+        <instance_id>ea92764ddb53595c9df22f17d4961948</instance_id>
+        <instance_name>aemcdevelopdemo</instance_name>
+        <name>sys_search_filter_786a63821ba6d950f2b0f7c4464bcb36</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Sitting request">b46a63821ba6d950f2b0f7c4464bcb03</ais_search_source>
+        <label>Sitting request</label>
+        <name>Sitting request</name>
+        <order>100</order>
+        <search_context_config display_value="Sitting Services Overview AI Search Configuration">c55a2f422ea6d950d24318ddabe6d37c</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:43:06</sys_created_on>
+        <sys_id>786a63821ba6d950f2b0f7c4464bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sitting request</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sys_search_filter_786a63821ba6d950f2b0f7c4464bcb36</sys_update_name>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
+    </sys_search_filter>
+</record_update>]]></payload>
+        <payload_hash>83220893</payload_hash>
+        <record_name>Sitting request</record_name>
+        <reverted_from/>
+        <source>fa226e1d875f91103fbe202c8bbb3500</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-20 14:19:53</sys_created_on>
+        <sys_id>ec522e5d875f91103fbe202c8bbb354b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1849568ef510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-20 14:19:53</sys_updated_on>
+        <type>Navigation Tab</type>
+        <update_guid>ac522e5db75f9110672e45f00241ff4b</update_guid>
+        <update_guid_history>ac522e5db75f9110672e45f00241ff4b:83220893</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 08:00:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_search_filter">sys_search_filter</sys_db_object>
+        <sys_id>02f6ef9bb648485daac0a9207e166a91</sys_id>
+        <sys_metadata>786a63821ba6d950f2b0f7c4464bcb36</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sitting request</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
+        <sys_update_name>sys_search_filter_786a63821ba6d950f2b0f7c4464bcb36</sys_update_name>
+        <sys_update_version display_value="sys_search_filter_786a63821ba6d950f2b0f7c4464bcb36">ec522e5d875f91103fbe202c8bbb354b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 08:00:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">895a2f4271a6d95028e1326ac534797a</canvas>
-        <component display_value="Calendar Report">259e0221ff18a75c5f5f0fb28fa5d32f</component>
+        <component display_value="">259e0221ff18a75c5f5f0fb28fa5d32f</component>
         <component_props>{"table":"x_snc_sitting_se_0_sit_request","reportSource":"","encodedQuery":"","startDateField":"start_of_service","endDateField":"end_of_service","eventDisplayFields":"sitter_name,type_of_service","componentTitle":"","followFilters":true,"showFilterOverview":false,"showDescription":true,"componentDescription":"","viewType":"MONTH","eventColor":"","filterConfigurations":[]}</component_props>
         <h>21</h>
         <name/>

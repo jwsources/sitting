@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Sitting Request">667463c61b66d950f2b0f7c4464bcb4b</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>jules.weijters</sys_created_by>
+        <sys_created_on>2023-01-24 12:36:16</sys_created_on>
+        <sys_id>2cf9f05687a4a1103fbe202c8bbb35d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Sitting Request</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_2cf9f05687a4a1103fbe202c8bbb35d5</sys_update_name>
+        <sys_updated_by>jules.weijters</sys_updated_by>
+        <sys_updated_on>2023-01-24 12:36:16</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</application>
+        <file_path/>
+        <instance_id>ea92764ddb53595c9df22f17d4961948</instance_id>
+        <instance_name>aemcdevelopdemo</instance_name>
+        <name>sc_cat_item_catalog_2cf9f05687a4a1103fbe202c8bbb35d5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Sitting Request">667463c61b66d950f2b0f7c4464bcb4b</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>jules.weijters</sys_created_by><sys_created_on>2023-01-24 12:36:16</sys_created_on><sys_id>2cf9f05687a4a1103fbe202c8bbb35d5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Sitting Request</sys_name><sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package><sys_policy/><sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope><sys_update_name>sc_cat_item_catalog_2cf9f05687a4a1103fbe202c8bbb35d5</sys_update_name><sys_updated_by>jules.weijters</sys_updated_by><sys_updated_on>2023-01-24 12:36:16</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>509562659</payload_hash>
+        <record_name>Service Catalog.Sitting Request</record_name>
+        <reverted_from/>
+        <source>5ca76a95879f91103fbe202c8bbb3572</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jules.weijters</sys_created_by>
+        <sys_created_on>2023-01-24 12:36:16</sys_created_on>
+        <sys_id>68f9f05687a4a1103fbe202c8bbb35d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185e3c76f7d0000001</sys_recorded_at>
+        <sys_updated_by>jules.weijters</sys_updated_by>
+        <sys_updated_on>2023-01-24 12:36:16</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>acf9f056bea4a110cac6abefc1c76cd8</update_guid>
+        <update_guid_history>acf9f056bea4a110cac6abefc1c76cd8:509562659</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Sitting Request">7df9345687a4a1103fbe202c8bbb35c8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jules.weijters</sys_created_by>
+        <sys_created_on>2023-01-24 12:36:21</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>8b1c1032b18b48589368eed45734dd90</sys_id>
+        <sys_metadata>2cf9f05687a4a1103fbe202c8bbb35d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Sitting Request</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_parent display_value="Sitting Request">667463c61b66d950f2b0f7c4464bcb4b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_2cf9f05687a4a1103fbe202c8bbb35d5</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_2cf9f05687a4a1103fbe202c8bbb35d5">68f9f05687a4a1103fbe202c8bbb35d9</sys_update_version>
+        <sys_updated_by>jules.weijters</sys_updated_by>
+        <sys_updated_on>2023-01-24 12:36:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

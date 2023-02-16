@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
     <par_dashboard_widget action="INSERT_OR_UPDATE">
         <canvas display_value="">04fa521b58a25510f07c8d28bc33c51f</canvas>
-        <component display_value="">6083add31d71827a26ceadfcc4e31550</component>
+        <component display_value="now-image">6083add31d71827a26ceadfcc4e31550</component>
         <component_props>{"alt":"","src":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.JvpELRYg5ajgVh7or_zXJwHaBA%26pid%3DApi&amp;f=1&amp;ipt=3318bcf6ca9d8b439179fc3922dc9cc6a42dc8d150fe5b3edbc4d204c126303e&amp;ipo=images","fit":"contain","position":"center center"}</component_props>
         <h>4</h>
         <name/>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="DELETE">
+        <active>true</active>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Sitting request Table</name>
+        <retention_policy/>
+        <source>x_snc_sitting_se_0_sitting_request</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:43:05</sys_created_on>
+        <sys_id>306a23821ba6d950f2b0f7c4464bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sitting request Table</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>ais_datasource_306a23821ba6d950f2b0f7c4464bcbff</sys_update_name>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
+        <type>internal</type>
+    </ais_datasource>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</application>
+        <file_path/>
+        <instance_id>ea92764ddb53595c9df22f17d4961948</instance_id>
+        <instance_name>aemcdevelopdemo</instance_name>
+        <name>ais_datasource_306a23821ba6d950f2b0f7c4464bcbff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Sitting request Table</name>
+        <retention_policy/>
+        <source>x_snc_sitting_se_0_sitting_request</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-16 20:43:05</sys_created_on>
+        <sys_id>306a23821ba6d950f2b0f7c4464bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sitting request Table</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_update_name>ais_datasource_306a23821ba6d950f2b0f7c4464bcbff</sys_update_name>
+        <sys_updated_by>Jules.weijters</sys_updated_by>
+        <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
+        <type>internal</type>
+    </ais_datasource>
+</record_update>]]></payload>
+        <payload_hash>-855033093</payload_hash>
+        <record_name>Sitting request Table</record_name>
+        <reverted_from/>
+        <source>fa226e1d875f91103fbe202c8bbb3500</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-20 14:19:20</sys_created_on>
+        <sys_id>6032225d875f91103fbe202c8bbb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18495686fb00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-20 14:19:20</sys_updated_on>
+        <type>AI Search Indexed Source</type>
+        <update_guid>2032225d445f9110f307de594c46c204</update_guid>
+        <update_guid_history>2032225d445f9110f307de594c46c204:-855033093</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Sitting request Table">26475aad4785611083b57272e36d43da</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 08:00:02</sys_created_on>
+        <sys_db_object display_value="" name="ais_datasource">ais_datasource</sys_db_object>
+        <sys_id>2bf6bcb349a24bdc90d1ce44bb6c4ea4</sys_id>
+        <sys_metadata>306a23821ba6d950f2b0f7c4464bcbff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sitting request Table</sys_name>
+        <sys_package display_value="Sitting Service" source="x_snc_sitting_se_0">b9a19b861be2d950f2b0f7c4464bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sitting Service">b9a19b861be2d950f2b0f7c4464bcbb1</sys_scope>
+        <sys_scope_delete display_value="">834ec9a2d17f461898753eb79d383364</sys_scope_delete>
+        <sys_update_name>ais_datasource_306a23821ba6d950f2b0f7c4464bcbff</sys_update_name>
+        <sys_update_version display_value="ais_datasource_306a23821ba6d950f2b0f7c4464bcbff">6032225d875f91103fbe202c8bbb3504</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 08:00:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

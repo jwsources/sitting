@@ -4,6 +4,7 @@
         <certified>false</certified>
         <description/>
         <experience/>
+        <grid>0</grid>
         <name>Analytics for Sitting Services</name>
         <sys_class_name>par_dashboard</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,6 +19,7 @@
         <sys_updated_by>Jules.weijters</sys_updated_by>
         <sys_updated_on>2022-10-31 13:08:11</sys_updated_on>
         <sys_ux_app_config/>
+        <sys_ux_app_route/>
         <sys_ux_macroponent/>
         <sys_ux_screen/>
         <sys_ux_screen_type/>
